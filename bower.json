@@ -1,0 +1,24 @@
+{
+  "name": "Presupuesto",
+  "authors": [
+    "Manuel Aristaran <jazzido@jazzido.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3plus": "^1.9.8",
+    "lodash": "^4.15.0",
+    "bubbletree": "*",
+    "qtip2": "^2.2.1"
+  }
+}

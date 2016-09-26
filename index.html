@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="es" class="lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="es" class="lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="es" class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html lang="es" class="lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="es"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sitio externo del Gobierno de la Ciudad de Buenos Aires.">
+    <meta name="author" content="Gobierno de la Ciudad de Buenos Aires">
+    <title>Gobierno de la Ciudad de Buenos Aires</title>
+    <link rel="shortcut icon" href="bastrap3/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="bastrap3/favicon-mobile.png">
+    <!-- build:css style.min.css -->
+    <link rel="stylesheet" href="bastrap3/bootstrap.min.css">
+    <link rel="stylesheet" href="bastrap3/bastrap.css">
+    <link rel="stylesheet" href="css/presupuesto.css">
+    <link rel="stylesheet" href="bower_components/bubbletree/dist/bubbletree.css" />
+    <!-- endbuild -->
+
+    <!-- build:js optimized.js -->
+    <script src="bower_components/d3/d3.js"></script>
+    <script src="bower_components/heap/lib/heap.js"></script>
+    <script src="bower_components/topojson/topojson.js"></script>
+    <script src="bower_components/d3plus/d3plus.full.js"></script>
+    <script src="bower_components/lodash/lodash.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/eve/eve.js"></script>
+    <script src="bower_components/raphael/raphael.min.js"></script>
+    <script src="bower_components/tween.js/src/Tween.js"></script>
+    <script src="js/patched_bubbletree.js"></script>
+    <script src="bower_components/ev-emitter/ev-emitter.js"></script>
+    <script src="bower_components/imagesloaded/imagesloaded.js"></script>
+    <script src="bastrap3/bootstrap.min.js"></script>
+    <script src="js/presupuesto_lib.js"></script>
+    <script src="js/presupuesto.js"></script>
+    <!-- endbuild -->
+
+    <!-- ESTILOS EXTRA -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="navbar navbar-primary navbar-top">
+      <div class="container">
+        <div class="row">
+         <div class="col-md-6 col-sm-6">
+              <a class="navbar-brand bac-header" href="index.html"></a>
+            </div>
+            <div class="col-md-6 col-sm-6 text-right oculto">
+              <h5 class="sub-brand"><img src="bastrap3/bac-header-2.png"/></h5>
+              <!--<h5 class="sub-brand">Vamos Buenos Aires</h5>-->
+            </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- CONTENIDO -->
+    <main class="main-container" role="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Presupuesto Abierto de la Ciudad de Buenos aires</h1>
+                    <p>El presupuesto refleja lo que hace el
+                        Estado con los recursos que nos pide a todos los ciudadanos. Por eso,
+                        desde el Gobierno de la Ciudad de Buenos Aires queremos rendir cuentas
+                        de forma directa sobre la manera en que utilizamos esos fondos. Estamos
+                        convencidos de que esa es la manera de estimular la participación,
+                        optimizar los controles y mejorar el nivel de la discusión pública.</p>
+                    <p>
+                        <small>La información cargada corresponde a la ejecución presupuestaria al 30 de junio de 2016. Se actualizará automáticamente en función de la disponibilidad de la información trimestral. Los datos provienen del conjunto <a href="http://data.buenosaires.gob.ar/dataset/presupuesto-ejecutado">Presupuesto Ejecutado</a> disponible en el portal <a href="http://data.buenosaires.gob.ar/">Buenos Aires Data</a></small>
+                    </p>
+
+                    <div class="row">
+                        <div style="position: relative; height: 600px">
+                            <div class="bubbletree-wrapper"><div class="bubbletree"></div></div>
+                        </div>
+                    </div>
+
+
+                    <div class="row shortcut-row">
+                        <a title="" data-original-title="" class="col-md-offset-1 col-md-2 col-sm-6 shortcut" href="#quien-gasta">
+                            <span class="bg-warning-lt icon-container">
+                                <img class="glyphicon quien" src="icons/quien.svg">
+                            </span>
+                            <h3>¿Quién gasta?</h3>
+                            <!-- p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur</p -->
+                        </a>
+                        <a title="" data-original-title="" class="col-md-2 col-sm-6 shortcut" href="#en-que-se-gasta">
+                            <span class="icon-container">
+                                <img class="glyphicon que" src="icons/que.svg">
+                            </span>
+                            <h3>¿En qué se gasta?</h3>
+                            <!-- p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur</p -->
+                        </a>
+                        <a title="" data-original-title="" class="col-md-2 col-sm-6 shortcut" href="#para-que-se-gasta">
+                            <span class="icon-container">
+                                <img class="glyphicon quien" src="icons/paraque.svg">
+                            </span>
+                            <h3>¿Para qué se gasta?</h3>
+                        </a>
+                        <a title="" data-original-title="" class="col-md-2 col-sm-6 shortcut" href="#como-se-financia">
+                            <span class="icon-container">
+                                <img class="glyphicon como" src="icons/como.svg">
+                            </span>
+                            <h3>¿Cómo se financia?</h3>
+                        </a>
+                        <a title="" data-original-title="" class="col-md-2 col-sm-6 shortcut" href="#donde-se-invierte">
+                            <span class="icon-container">
+                                <img class="glyphicon como" src="icons/donde.svg">
+                            </span>
+                            <h3>¿Dónde se hacen obras?</h3>
+                        </a>
+                    </div>
+
+                    <!-- quién -->
+                    <h2 id="quien-gasta">¿Quién gasta?</h2>
+                    <p>Aquí se puede ver cuáles son las áreas administrativas
+                        encargadas de ejecutar el presupuesto, lo que permite conocer quiénes
+                        son los responsables de administrar los recursos públicos. Se la conoce como <em>clasificación institucional</em>.</p>
+                    <div class="visualization-container" id="quien">
+                        <div class="controls">
+                            <div>
+                                <label class="radio-inline">
+                                    <input type="radio" name="quien-measure-select" value="vigente" checked="checked"> Vigente <span class="glyphicon glyphicon-question-sign" aria-hidden="true" data-toggle="popover" data-content="El Crédito Vigente es el monto que tienen disponible las distintas áreas del gobierno para llevar adelante sus políticas. Muestra el máximo que cada organismo está habilitado a gastar a lo largo del año."></span>
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="quien-measure-select" value="devengado"> Ejecutado <span class="glyphicon glyphicon-question-sign" aria-hidden="true" data-toggle="popover" data-content="El Ejecutado es el gasto que ya se realizó. Indica que los bienes que se compraron se recibieron correctamente, que los servicios se prestaron o que las obras se hicieron. Técnicamente, se lo conoce como Devengado."></span>
+                                </label>
+                            </div>
+                            <div>
+                                <label class="radio-inline">
+                                    <input type="radio" name="quien-chart-select" value="tree_map" checked="checked">Treemap
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="quien-chart-select" value="stacked"> Áreas
+                                </label>
+                            </div>
+                        </div>
+                        <div class="viz"></div>
+                    </div>
+                    <br><br><br><br>
+
+                    <!-- qué -->
+                    <h2 id="en-que-se-gasta">¿En qué se gasta?</h2>
+                    <p>Mediante esta desagregación se puede ver qué tipo de bienes y
+                        servicios compra o contrata el Gobierno de la Ciudad. Se la conoce como
+                        clasificación por <em>objeto del gasto</em>.</p>
+                    <div class="visualization-container" id="que">
+                        <div class="controls">
+                            <div>
+                                <label class="radio-inline">
+                                    <input type="radio" name="que-measure-select" value="vigente" checked="checked"> Vigente <span class="glyphicon glyphicon-question-sign" aria-hidden="true" data-toggle="popover" data-content="El Crédito Vigente es el monto que tienen disponible las distintas áreas del gobierno para llevar adelante sus políticas. Muestra el máximo que cada organismo está habilitado a gastar a lo largo del año."></span>
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="que-measure-select" value="devengado"> Ejecutado <span class="glyphicon glyphicon-question-sign" aria-hidden="true" data-toggle="popover" data-content="El Ejecutado es el gasto que ya se realizó. Indica que los bienes que se compraron se recibieron correctamente, que los servicios se prestaron o que las obras se hicieron. Técnicamente, se lo conoce como Devengado."></span>
+                                </label>
+                            </div>
+                            <div>
+                                <label class="radio-inline">
+                                    <input type="radio" name="que-chart-select" value="tree_map" checked="checked">Treemap
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="que-chart-select" value="stacked"> Áreas
+                                </label>
+                            </div>
+
+                        </div>
+                        <div class="viz"></div>
+                    </div>
+                    <br><br><br><br>
+
+                    <!-- para qué -->
+                    <h2 id="para-que-se-gasta">¿Para qué se gasta?</h2>
+                    <p>A través de esta clasificación se puede ver a qué políticas
+                        públicas contribuyen los fondos asignados en el presupuesto,
+                        independientemente de cuál sea el área que los ejecute. Se la conoce
+                        como <em>clasificación funcional</em> o <em>clasificación por finalidad y función</em>.</p>
+                    <div class="visualization-container" id="paraque">
+                        <div class="controls">
+                            <div>
+                                <label class="radio-inline">
+                                    <input type="radio" name="paraque-measure-select" value="vigente" checked="checked"> Vigente <span class="glyphicon glyphicon-question-sign" aria-hidden="true" data-toggle="popover" data-content="El Crédito Vigente es el monto que tienen disponible las distintas áreas del gobierno para llevar adelante sus políticas. Muestra el máximo que cada organismo está habilitado a gastar a lo largo del año."></span>
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="paraque-measure-select" value="devengado"> Ejecutado <span class="glyphicon glyphicon-question-sign" aria-hidden="true" data-toggle="popover" data-content="El Ejecutado es el gasto que ya se realizó. Indica que los bienes que se compraron se recibieron correctamente, que los servicios se prestaron o que las obras se hicieron. Técnicamente, se lo conoce como Devengado."></span>
+                                </label>
+                            </div>
+                            <div>
+                                <label class="radio-inline">
+                                    <input type="radio" name="paraque-chart-select" value="tree_map" checked="checked">Treemap
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="paraque-chart-select" value="stacked"> Áreas
+                                </label>
+                            </div>
+                        </div>
+                        <div class="viz"></div>
+                    </div>
+                    <br><br><br><br>
+
+                    <!-- como -->
+                    <h2 id="como-se-financia">¿Cómo se financia?</h2>
+                    <p>Mediante esta clasificación es posible saber de dónde vienen
+                        los recursos de que dispone la Ciudad para financiar sus gastos. Se la
+                        llama <em>clasificación por fuente de financiamiento</em>.</p>
+                    <div class="visualization-container" id="como">
+                        <div class="controls">
+                            <div>
+                                <label class="radio-inline">
+                                    <input type="radio" name="como-measure-select" value="vigente" checked="checked"> Vigente <span class="glyphicon glyphicon-question-sign" aria-hidden="true" data-toggle="popover" data-content="El Crédito Vigente es el monto que tienen disponible las distintas áreas del gobierno para llevar adelante sus políticas. Muestra el máximo que cada organismo está habilitado a gastar a lo largo del año."></span>
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="como-measure-select" value="devengado"> Ejecutado <span class="glyphicon glyphicon-question-sign" aria-hidden="true" data-toggle="popover" data-content="El Ejecutado es el gasto que ya se realizó. Indica que los bienes que se compraron se recibieron correctamente, que los servicios se prestaron o que las obras se hicieron. Técnicamente, se lo conoce como Devengado."></span>
+                                </label>
+                            </div>
+                            <div>
+                                <label class="radio-inline">
+                                    <input type="radio" name="como-chart-select" value="tree_map" checked="checked">Treemap
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="como-chart-select" value="stacked"> Áreas
+                                </label>
+                            </div>
+                        </div>
+                        <div class="viz"></div>
+                    </div>
+                    <br><br><br><br>
+
+                    <h2 id="donde-se-invierte">¿Donde se hacen obras?</h2>
+                    <p>Aquí se combinan dos clasificaciones: la geográfica, que muestra el gasto por comuna, y la económica, que separa los gastos corrientes de la inversión pública, para visualizar cómo se distribuyen las obras de infraestructura en todo el territorio de la ciudad.</p>
+                    <div class="visualization-container" id="donde">
+                        <div class="controls">
+                            <div>
+                                <label class="radio-inline">
+                                    <input type="radio" name="donde-measure-select" value="vigente" checked="checked"> Vigente <span class="glyphicon glyphicon-question-sign" aria-hidden="true" data-toggle="popover" data-content="El Crédito Vigente es el monto que tienen disponible las distintas áreas del gobierno para llevar adelante sus políticas. Muestra el máximo que cada organismo está habilitado a gastar a lo largo del año." checked="checked"></span>
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="donde-measure-select" value="devengado"> Ejecutado <span class="glyphicon glyphicon-question-sign" aria-hidden="true" data-toggle="popover" data-content="El Ejecutado es el gasto que ya se realizó. Indica que los bienes que se compraron se recibieron correctamente, que los servicios se prestaron o que las obras se hicieron. Técnicamente, se lo conoce como Devengado."></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="viz"></div>
+                        <p>
+                            <small>El monto de obras en la Comuna 1 es particularmente elevado debido a que allí se registraron $944 millones de transferencias a SBASE para la expansión de la red de subterráneos.</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- FIN DE CONTENIDO -->
+
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <a class="navbar-brand bac-footer" href="http://www.buenosaires.gob.ar" target="_blank">Buenos Aires Ciudad</a>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="sub-brand">
+                    <p>Ministerio de Hacienda<br />
+                        Ministerio de Modernización, Innovación y Tecnología<br />
+                        Secretaría General y Relaciones Internacionales</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- build:css style_iframe.min.css -->
+        <link rel="stylesheet" href="bastrap3/bootstrap.min.css">
+        <link rel="stylesheet" href="bastrap3/bastrap.css">
+        <link rel="stylesheet" href="css/presupuesto.css">
+        <link rel="stylesheet" href="bower_components/bubbletree/dist/bubbletree.css" />
+        <!-- endbuild -->
+
+        <!-- build:js optimized_iframe.js -->
+        <script src="bower_components/d3/d3.js"></script>
+        <script src="bower_components/heap/lib/heap.js"></script>
+        <script src="bower_components/topojson/topojson.js"></script>
+        <script src="bower_components/d3plus/d3plus.full.js"></script>
+        <script src="bower_components/lodash/lodash.js"></script>
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/eve/eve.js"></script>
+        <script src="bower_components/raphael/raphael.min.js"></script>
+        <script src="bower_components/tween.js/src/Tween.js"></script>
+        <script src="js/patched_bubbletree.js"></script>
+        <script src="bower_components/ev-emitter/ev-emitter.js"></script>
+        <script src="bower_components/imagesloaded/imagesloaded.js"></script>
+        <script src="bastrap3/bootstrap.min.js"></script>
+        <script src="js/presupuesto_lib.js"></script>
+        <script src="js/presupuesto_iframe.js"></script>
+        <!-- endbuild -->
+        <style type="text/css">
+         html, body {
+             width: 100%;
+             height: 100%;
+             margin: 0; padding: 0;
+         }
+         #viz {
+             width: 100%;
+             height: 400px;
+         }
+        </style>
+    </head>
+    <body>
+        <div class="visualization-container" id="viz">
+            <div class="controls">
+                <div class="measures">
+                    <label class="radio-inline">
+                        <input type="radio" name="como-measure-select" value="vigente" checked="checked"> Vigente <span class="glyphicon glyphicon-question-sign" aria-hidden="true" data-toggle="popover" data-content="El Crédito Vigente es el monto que tienen disponible las distintas áreas del gobierno para llevar adelante sus políticas. Muestra el máximo que cada organismo está habilitado a gastar a lo largo del año."></span>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="como-measure-select" value="devengado"> Ejecutado <span class="glyphicon glyphicon-question-sign" aria-hidden="true" data-toggle="popover" data-content="El Ejecutado es el gasto que ya se realizó. Indica que los bienes que se compraron se recibieron correctamente, que los servicios se prestaron o que las obras se hicieron. Técnicamente, se lo conoce como Devengado."></span>
+                    </label>
+                </div>
+                <div class="chart-type">
+                    <label class="radio-inline">
+                        <input type="radio" name="como-chart-select" value="tree_map" checked="checked">Treemap
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="como-chart-select" value="stacked"> Áreas
+                    </label>
+                </div>
+            </div>
+            <div class="viz">
+
+            </div>
+        </div>
+    </body>
+</html>
