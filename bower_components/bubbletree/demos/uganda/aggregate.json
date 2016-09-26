@@ -1,0 +1,4500 @@
+{
+  "drilldown": [
+    {
+      "amount": 48473840000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 23, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47d2cee9bea8e35bf52", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47d2cee9bea8e35bf52"
+        }, 
+        "name": "post-conflict-reconstruction-northern-uganda-luwero-reconstruction", 
+        "label": "Post conflict reconstruction (Northern Uganda/Luwero Reconstruction)"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf4d", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf4d"
+        }, 
+        "name": "disaster-management-and-the-north", 
+        "label": "Disaster Management and the North"
+      }
+    }, 
+    {
+      "amount": 13635097844.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 20, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4a52cee9bea8e35c16b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a52cee9bea8e35c16b"
+        }, 
+        "name": "a-strengthened-financial-sector", 
+        "label": "A strengthened Financial Sector"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47f2cee9bea8e35bf94", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47f2cee9bea8e35bf94"
+        }, 
+        "name": "macroeconomic-and-financial-sector-management", 
+        "label": "Macroeconomic and Financial Sector Management"
+      }
+    }, 
+    {
+      "amount": 0.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 2, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4852cee9bea8e35c034", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4852cee9bea8e35c034"
+        }, 
+        "name": "expanded-use-of-ict-in-support-of-private-sector-production", 
+        "label": "Expanded use of ICT in support of private sector production"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f4852cee9bea8e35c036", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4852cee9bea8e35c036"
+        }, 
+        "name": "information-communication-technology", 
+        "label": "Information Communication Technology"
+      }
+    }, 
+    {
+      "amount": 29335000000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 34, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4882cee9bea8e35c08f", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4882cee9bea8e35c08f"
+        }, 
+        "name": "improved-agriculture-research", 
+        "label": "Improved Agriculture Research"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf08", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf08"
+        }, 
+        "name": "agriculture", 
+        "label": "Agriculture"
+      }
+    }, 
+    {
+      "amount": 10468520000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 11, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47c2cee9bea8e35bf4b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf4b"
+        }, 
+        "name": "conflict-resolution", 
+        "label": "conflict Resolution"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf4d", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf4d"
+        }, 
+        "name": "disaster-management-and-the-north", 
+        "label": "Disaster Management and the North"
+      }
+    }, 
+    {
+      "amount": 63809762500.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 11, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4842cee9bea8e35c00a", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4842cee9bea8e35c00a"
+        }, 
+        "name": "an-expanded-and-better-maintained-trunk-road-network", 
+        "label": "An expanded and better maintained trunk road network"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf2e", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf2e"
+        }, 
+        "name": "roads-works", 
+        "label": "Roads & Works"
+      }
+    }, 
+    {
+      "amount": 461470000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 10, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4802cee9bea8e35bfc1", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4802cee9bea8e35bfc1"
+        }, 
+        "name": "strong-and-effective-land-and-housing-policies-and-implementation", 
+        "label": "Strong and effective land and housing policies and implementation"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f4802cee9bea8e35bfc3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4802cee9bea8e35bfc3"
+        }, 
+        "name": "lands-housing-urban-development", 
+        "label": "Lands, Housing & Urban Development"
+      }
+    }, 
+    {
+      "amount": 0.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 23, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47d2cee9bea8e35bf5c", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47d2cee9bea8e35bf5c"
+        }, 
+        "name": "effective-foreign-policy", 
+        "label": "Effective foreign policy"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47a2cee9bea8e35beef", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35beef"
+        }, 
+        "name": "public-administration", 
+        "label": "Public Administration"
+      }
+    }, 
+    {
+      "amount": 9074180733.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 32, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47c2cee9bea8e35bf35", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf35"
+        }, 
+        "name": "improved-urban-water-and-sanitation-systems-and-coverage", 
+        "label": "Improved urban Water and Sanitation Systems and Coverage"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf32", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf32"
+        }, 
+        "name": "water-environment", 
+        "label": "Water & Environment"
+      }
+    }, 
+    {
+      "amount": 0.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 3, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4842cee9bea8e35c01f", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4842cee9bea8e35c01f"
+        }, 
+        "name": "more-gender-responsive-policies-practices-and-service-delivery", 
+        "label": "More Gender Responsive Policies, Practices and Service Delivery"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf15", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf15"
+        }, 
+        "name": "gender-labour-social-development", 
+        "label": "Gender, Labour & Social Development"
+      }
+    }, 
+    {
+      "amount": 3615472511.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 13, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47b2cee9bea8e35bf22", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf22"
+        }, 
+        "name": "effective-and-accessible-hospital-services", 
+        "label": "Effective and accessible hospital services"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf24", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf24"
+        }, 
+        "name": "health", 
+        "label": "Health"
+      }
+    }, 
+    {
+      "amount": 8216140000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 9, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47e2cee9bea8e35bf76", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47e2cee9bea8e35bf76"
+        }, 
+        "name": "a-strong-independent-judiciary", 
+        "label": "A strong, independent Judiciary"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47e2cee9bea8e35bf79", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47e2cee9bea8e35bf79"
+        }, 
+        "name": "justice-law-order", 
+        "label": "Justice, Law & Order"
+      }
+    }, 
+    {
+      "amount": 421270000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4c62cee9bea8e35c37d", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37d"
+        }, 
+        "name": "budget-support", 
+        "label": "Budget Support"
+      }, 
+      "num_entries": 1, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47b2cee9bea8e35bf13", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf13"
+        }, 
+        "name": "community-development-social-protection", 
+        "label": "Community Development & Social Protection"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf15", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf15"
+        }, 
+        "name": "gender-labour-social-development", 
+        "label": "Gender, Labour & Social Development"
+      }
+    }, 
+    {
+      "amount": 123874759180.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 19, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47b2cee9bea8e35bf27", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf27"
+        }, 
+        "name": "delivery-of-high-quality-free-basic-healthcare-services", 
+        "label": "Delivery of high quality, free, basic healthcare services"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf24", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf24"
+        }, 
+        "name": "health", 
+        "label": "Health"
+      }
+    }, 
+    {
+      "amount": 9996300000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 15, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47b2cee9bea8e35bf0d", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf0d"
+        }, 
+        "name": "supporting-cross-sectoral-local-government-service-delivery", 
+        "label": "Supporting Cross Sectoral Local Government Service Delivery"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf0f", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf0f"
+        }, 
+        "name": "cross-sectoral-programmes", 
+        "label": "Cross Sectoral Programmes"
+      }
+    }, 
+    {
+      "amount": 13029750000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4c62cee9bea8e35c37d", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37d"
+        }, 
+        "name": "budget-support", 
+        "label": "Budget Support"
+      }, 
+      "num_entries": 2, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4c62cee9bea8e35c37a", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37a"
+        }, 
+        "name": "support-to-all-or-multiple-objectives-under-sector", 
+        "label": "Support to all or multiple objectives under sector"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf08", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf08"
+        }, 
+        "name": "agriculture", 
+        "label": "Agriculture"
+      }
+    }, 
+    {
+      "amount": 2587448621.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 6, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4842cee9bea8e35c018", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4842cee9bea8e35c018"
+        }, 
+        "name": "increased-mineral-and-petroleum-production", 
+        "label": "Increased Mineral and Petroleum production"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f4842cee9bea8e35c014", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4842cee9bea8e35c014"
+        }, 
+        "name": "energy-minerals", 
+        "label": "Energy & Minerals"
+      }
+    }, 
+    {
+      "amount": 42546750000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 56, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4822cee9bea8e35bff5", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4822cee9bea8e35bff5"
+        }, 
+        "name": "rapidly-increasing-tourism-trade-and-private-sector-production", 
+        "label": "Rapidly increasing Tourism, Trade and Private Sector Production"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f4822cee9bea8e35bff6", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4822cee9bea8e35bff6"
+        }, 
+        "name": "tourism-trade-industry", 
+        "label": "Tourism, Trade & Industry"
+      }
+    }, 
+    {
+      "amount": 12638020000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4c62cee9bea8e35c37d", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37d"
+        }, 
+        "name": "budget-support", 
+        "label": "Budget Support"
+      }, 
+      "num_entries": 4, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4c62cee9bea8e35c37a", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37a"
+        }, 
+        "name": "support-to-all-or-multiple-objectives-under-sector", 
+        "label": "Support to all or multiple objectives under sector"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf1b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf1b"
+        }, 
+        "name": "education", 
+        "label": "Education"
+      }
+    }, 
+    {
+      "amount": 79402746901.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 51, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47b2cee9bea8e35bf22", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf22"
+        }, 
+        "name": "effective-and-accessible-hospital-services", 
+        "label": "Effective and accessible hospital services"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf24", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf24"
+        }, 
+        "name": "health", 
+        "label": "Health"
+      }
+    }, 
+    {
+      "amount": 231365000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 2, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4b42cee9bea8e35c308", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4b42cee9bea8e35c308"
+        }, 
+        "name": "cross-sectoral-service-delivery-administered-centrally", 
+        "label": "Cross Sectoral Service Delivery administered Centrally"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf2a", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf2a"
+        }, 
+        "name": "public-sector-management", 
+        "label": "Public Sector Management"
+      }
+    }, 
+    {
+      "amount": 4521500000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 4, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4b02cee9bea8e35c29b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4b02cee9bea8e35c29b"
+        }, 
+        "name": "increased-provision-of-water-in-support-of-production", 
+        "label": "Increased Provision of Water in Support of Production"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf32", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf32"
+        }, 
+        "name": "water-environment", 
+        "label": "Water & Environment"
+      }
+    }, 
+    {
+      "amount": 116283257014.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 20, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47b2cee9bea8e35bf19", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf19"
+        }, 
+        "name": "effective-universal-secondary-and-vocational-training", 
+        "label": "Effective, Universal Secondary and Vocational Training"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf1b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf1b"
+        }, 
+        "name": "education", 
+        "label": "Education"
+      }
+    }, 
+    {
+      "amount": 200000000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 14, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4852cee9bea8e35c034", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4852cee9bea8e35c034"
+        }, 
+        "name": "expanded-use-of-ict-in-support-of-private-sector-production", 
+        "label": "Expanded use of ICT in support of private sector production"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f4852cee9bea8e35c036", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4852cee9bea8e35c036"
+        }, 
+        "name": "information-communication-technology", 
+        "label": "Information Communication Technology"
+      }
+    }, 
+    {
+      "amount": 0.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4c62cee9bea8e35c37d", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37d"
+        }, 
+        "name": "budget-support", 
+        "label": "Budget Support"
+      }, 
+      "num_entries": 1, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47c2cee9bea8e35bf2c", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf2c"
+        }, 
+        "name": "an-expanded-and-better-maintained-district-and-urban-road-network", 
+        "label": "An expanded and better maintained district and urban road network"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf2e", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf2e"
+        }, 
+        "name": "roads-works", 
+        "label": "Roads & Works"
+      }
+    }, 
+    {
+      "amount": 10688538845.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 9, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4af2cee9bea8e35c275", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4af2cee9bea8e35c275"
+        }, 
+        "name": "education-in-conflict-and-remote-areas", 
+        "label": "Education in conflict and remote areas"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf1b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf1b"
+        }, 
+        "name": "education", 
+        "label": "Education"
+      }
+    }, 
+    {
+      "amount": 18195903612.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 21, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47b2cee9bea8e35bf28", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf28"
+        }, 
+        "name": "strong-local-governments-and-decentralisation", 
+        "label": "Strong local governments and decentralisation"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf2a", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf2a"
+        }, 
+        "name": "public-sector-management", 
+        "label": "Public Sector Management"
+      }
+    }, 
+    {
+      "amount": 1711760000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 14, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47d2cee9bea8e35bf59", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47d2cee9bea8e35bf59"
+        }, 
+        "name": "effective-and-efficient-civil-service-delivery", 
+        "label": "Effective and efficient civil service delivery"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf2a", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf2a"
+        }, 
+        "name": "public-sector-management", 
+        "label": "Public Sector Management"
+      }
+    }, 
+    {
+      "amount": 128620000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 2, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47d2cee9bea8e35bf60", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47d2cee9bea8e35bf60"
+        }, 
+        "name": "an-effective-armed-forces", 
+        "label": "An effective armed forces"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf3b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf3b"
+        }, 
+        "name": "security", 
+        "label": "Security"
+      }
+    }, 
+    {
+      "amount": 38621776124.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 23, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47b2cee9bea8e35bf20", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf20"
+        }, 
+        "name": "strong-tertiary-education", 
+        "label": "Strong Tertiary Education"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf1b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf1b"
+        }, 
+        "name": "education", 
+        "label": "Education"
+      }
+    }, 
+    {
+      "amount": -61198650000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 11, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4c62cee9bea8e35c37a", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37a"
+        }, 
+        "name": "support-to-all-or-multiple-objectives-under-sector", 
+        "label": "Support to all or multiple objectives under sector"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf24", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf24"
+        }, 
+        "name": "health", 
+        "label": "Health"
+      }
+    }, 
+    {
+      "amount": 0.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 1, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4a62cee9bea8e35c18f", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a62cee9bea8e35c18f"
+        }, 
+        "name": "support-to-other-objectives-relevant-to-sector", 
+        "label": "support to other objectives relevant to sector"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf1b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf1b"
+        }, 
+        "name": "education", 
+        "label": "Education"
+      }
+    }, 
+    {
+      "amount": 75265711217.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 74, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47e2cee9bea8e35bf76", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47e2cee9bea8e35bf76"
+        }, 
+        "name": "a-strong-independent-judiciary", 
+        "label": "A strong, independent Judiciary"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47e2cee9bea8e35bf79", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47e2cee9bea8e35bf79"
+        }, 
+        "name": "justice-law-order", 
+        "label": "Justice, Law & Order"
+      }
+    }, 
+    {
+      "amount": 3061078845.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 4, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4a62cee9bea8e35c1a4", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a62cee9bea8e35c1a4"
+        }, 
+        "name": "improved-rail-waterways-and-other-transport-infrastructure", 
+        "label": "Improved rail, waterways and other transport infrastructure"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf2e", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf2e"
+        }, 
+        "name": "roads-works", 
+        "label": "Roads & Works"
+      }
+    }, 
+    {
+      "amount": 0.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 10, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4812cee9bea8e35bfcd", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4812cee9bea8e35bfcd"
+        }, 
+        "name": "increased-and-more-sustainable-forestry-production", 
+        "label": "Increased and more sustainable Forestry Production"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf32", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf32"
+        }, 
+        "name": "water-environment", 
+        "label": "Water & Environment"
+      }
+    }, 
+    {
+      "amount": 45063238216.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 93, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47d2cee9bea8e35bf5c", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47d2cee9bea8e35bf5c"
+        }, 
+        "name": "effective-foreign-policy", 
+        "label": "Effective foreign policy"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47a2cee9bea8e35beef", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35beef"
+        }, 
+        "name": "public-administration", 
+        "label": "Public Administration"
+      }
+    }, 
+    {
+      "amount": 2632920000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4c62cee9bea8e35c37d", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37d"
+        }, 
+        "name": "budget-support", 
+        "label": "Budget Support"
+      }, 
+      "num_entries": 1, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47a2cee9bea8e35bef7", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef7"
+        }, 
+        "name": "increased-integrity-and-reduced-corruption", 
+        "label": "Increased Integrity and reduced Corruption"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47a2cee9bea8e35bef9", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef9"
+        }, 
+        "name": "accountability", 
+        "label": "Accountability"
+      }
+    }, 
+    {
+      "amount": 543997200000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4c62cee9bea8e35c37d", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37d"
+        }, 
+        "name": "budget-support", 
+        "label": "Budget Support"
+      }, 
+      "num_entries": 15, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4c72cee9bea8e35c37f", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c72cee9bea8e35c37f"
+        }, 
+        "name": "full-paf-general-budget-support", 
+        "label": "Full/PAF General Budget Support"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f4c72cee9bea8e35c382", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c72cee9bea8e35c382"
+        }, 
+        "name": "full-paf-general-budget-support", 
+        "label": "Full/PAF General Budget Support"
+      }
+    }, 
+    {
+      "amount": 3330000000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 14, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4862cee9bea8e35c052", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4862cee9bea8e35c052"
+        }, 
+        "name": "fighting-hiv-aids", 
+        "label": "Fighting HIV/AIDS"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf24", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf24"
+        }, 
+        "name": "health", 
+        "label": "Health"
+      }
+    }, 
+    {
+      "amount": 34253538281.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 22, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47f2cee9bea8e35bf8e", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47f2cee9bea8e35bf8e"
+        }, 
+        "name": "strengthened-public-financial-management", 
+        "label": "Strengthened Public Financial Management"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47a2cee9bea8e35bef9", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef9"
+        }, 
+        "name": "accountability", 
+        "label": "Accountability"
+      }
+    }, 
+    {
+      "amount": 69062876310.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 21, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4822cee9bea8e35bfe9", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4822cee9bea8e35bfe9"
+        }, 
+        "name": "effective-health-policies-and-quality-assurance", 
+        "label": "Effective health policies and quality assurance"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf24", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf24"
+        }, 
+        "name": "health", 
+        "label": "Health"
+      }
+    }, 
+    {
+      "amount": 0.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 1, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4a62cee9bea8e35c18f", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a62cee9bea8e35c18f"
+        }, 
+        "name": "support-to-other-objectives-relevant-to-sector", 
+        "label": "support to other objectives relevant to sector"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf08", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf08"
+        }, 
+        "name": "agriculture", 
+        "label": "Agriculture"
+      }
+    }, 
+    {
+      "amount": 6338169180.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 12, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47a2cee9bea8e35bef7", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef7"
+        }, 
+        "name": "increased-integrity-and-reduced-corruption", 
+        "label": "Increased Integrity and reduced Corruption"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47a2cee9bea8e35bef9", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef9"
+        }, 
+        "name": "accountability", 
+        "label": "Accountability"
+      }
+    }, 
+    {
+      "amount": 30100000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 2, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4aa2cee9bea8e35c204", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4aa2cee9bea8e35c204"
+        }, 
+        "name": "family-planning-and-reproductive-health", 
+        "label": "Family Planning and Reproductive Health"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf24", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf24"
+        }, 
+        "name": "health", 
+        "label": "Health"
+      }
+    }, 
+    {
+      "amount": 5234710000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 5, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4882cee9bea8e35c08b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4882cee9bea8e35c08b"
+        }, 
+        "name": "increased-revenue-collection", 
+        "label": "Increased Revenue Collection"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47a2cee9bea8e35beef", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35beef"
+        }, 
+        "name": "public-administration", 
+        "label": "Public Administration"
+      }
+    }, 
+    {
+      "amount": 32889302546.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 25, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47b2cee9bea8e35bf06", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf06"
+        }, 
+        "name": "effective-agriculture-education-advisory-and-extension-services", 
+        "label": "Effective Agriculture Education, Advisory and Extension Services"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf08", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf08"
+        }, 
+        "name": "agriculture", 
+        "label": "Agriculture"
+      }
+    }, 
+    {
+      "amount": 3672210000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 15, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47e2cee9bea8e35bf81", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47e2cee9bea8e35bf81"
+        }, 
+        "name": "strong-justice-policy-and-legislation", 
+        "label": "Strong justice policy and legislation"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47e2cee9bea8e35bf79", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47e2cee9bea8e35bf79"
+        }, 
+        "name": "justice-law-order", 
+        "label": "Justice, Law & Order"
+      }
+    }, 
+    {
+      "amount": 89190000000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 10, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4862cee9bea8e35c03f", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4862cee9bea8e35c03f"
+        }, 
+        "name": "a-strong-parliament-and-independent-electoral-process", 
+        "label": "A strong Parliament and Independent Electoral Process"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47a2cee9bea8e35beef", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35beef"
+        }, 
+        "name": "public-administration", 
+        "label": "Public Administration"
+      }
+    }, 
+    {
+      "amount": 4825540000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 10, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4862cee9bea8e35c04c", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4862cee9bea8e35c04c"
+        }, 
+        "name": "improved-human-rights", 
+        "label": "Improved Human Rights"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47a2cee9bea8e35beef", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35beef"
+        }, 
+        "name": "public-administration", 
+        "label": "Public Administration"
+      }
+    }, 
+    {
+      "amount": 63679544379.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 29, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4842cee9bea8e35c013", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4842cee9bea8e35c013"
+        }, 
+        "name": "adequate-and-reliable-energy-provision", 
+        "label": "Adequate and reliable Energy provision"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f4842cee9bea8e35c014", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4842cee9bea8e35c014"
+        }, 
+        "name": "energy-minerals", 
+        "label": "Energy & Minerals"
+      }
+    }, 
+    {
+      "amount": 395470000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 6, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47a2cee9bea8e35beec", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35beec"
+        }, 
+        "name": "a-strong-presidency-and-cabinet", 
+        "label": "A strong Presidency and Cabinet"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47a2cee9bea8e35beef", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35beef"
+        }, 
+        "name": "public-administration", 
+        "label": "Public Administration"
+      }
+    }, 
+    {
+      "amount": 15290000000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 3, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4a52cee9bea8e35c16b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a52cee9bea8e35c16b"
+        }, 
+        "name": "a-strengthened-financial-sector", 
+        "label": "A strengthened Financial Sector"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47f2cee9bea8e35bf94", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47f2cee9bea8e35bf94"
+        }, 
+        "name": "macroeconomic-and-financial-sector-management", 
+        "label": "Macroeconomic and Financial Sector Management"
+      }
+    }, 
+    {
+      "amount": 6739210000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 15, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47b2cee9bea8e35bf1e", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf1e"
+        }, 
+        "name": "good-quality-universal-primary-education", 
+        "label": "Good Quality, Universal Primary Education"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf1b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf1b"
+        }, 
+        "name": "education", 
+        "label": "Education"
+      }
+    }, 
+    {
+      "amount": 80474940000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 38, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47b2cee9bea8e35bf27", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf27"
+        }, 
+        "name": "delivery-of-high-quality-free-basic-healthcare-services", 
+        "label": "Delivery of high quality, free, basic healthcare services"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf24", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf24"
+        }, 
+        "name": "health", 
+        "label": "Health"
+      }
+    }, 
+    {
+      "amount": 107034336587.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 31, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47c2cee9bea8e35bf35", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf35"
+        }, 
+        "name": "improved-urban-water-and-sanitation-systems-and-coverage", 
+        "label": "Improved urban Water and Sanitation Systems and Coverage"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf32", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf32"
+        }, 
+        "name": "water-environment", 
+        "label": "Water & Environment"
+      }
+    }, 
+    {
+      "amount": 0.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 2, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4b42cee9bea8e35c2fe", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4b42cee9bea8e35c2fe"
+        }, 
+        "name": "effective-commercial-justice", 
+        "label": "Effective commercial justice"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47e2cee9bea8e35bf79", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47e2cee9bea8e35bf79"
+        }, 
+        "name": "justice-law-order", 
+        "label": "Justice, Law & Order"
+      }
+    }, 
+    {
+      "amount": 1074160000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 1, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4b12cee9bea8e35c2b6", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4b12cee9bea8e35c2b6"
+        }, 
+        "name": "improved-and-more-sustainable-management-of-wetlands", 
+        "label": "Improved and more sustainable management of wetlands"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf32", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf32"
+        }, 
+        "name": "water-environment", 
+        "label": "Water & Environment"
+      }
+    }, 
+    {
+      "amount": 96093445967.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 41, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47b2cee9bea8e35bf20", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf20"
+        }, 
+        "name": "strong-tertiary-education", 
+        "label": "Strong Tertiary Education"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf1b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf1b"
+        }, 
+        "name": "education", 
+        "label": "Education"
+      }
+    }, 
+    {
+      "amount": 813000000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 1, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4c62cee9bea8e35c37a", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37a"
+        }, 
+        "name": "support-to-all-or-multiple-objectives-under-sector", 
+        "label": "Support to all or multiple objectives under sector"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf32", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf32"
+        }, 
+        "name": "water-environment", 
+        "label": "Water & Environment"
+      }
+    }, 
+    {
+      "amount": 966573992.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 9, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47c2cee9bea8e35bf4f", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf4f"
+        }, 
+        "name": "disaster-management-and-humanitarian-support", 
+        "label": "Disaster Management and Humanitarian Support"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf4d", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf4d"
+        }, 
+        "name": "disaster-management-and-the-north", 
+        "label": "Disaster Management and the North"
+      }
+    }, 
+    {
+      "amount": 50000000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 1, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47c2cee9bea8e35bf4f", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf4f"
+        }, 
+        "name": "disaster-management-and-humanitarian-support", 
+        "label": "Disaster Management and Humanitarian Support"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47f2cee9bea8e35bf94", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47f2cee9bea8e35bf94"
+        }, 
+        "name": "macroeconomic-and-financial-sector-management", 
+        "label": "Macroeconomic and Financial Sector Management"
+      }
+    }, 
+    {
+      "amount": 16555290000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 11, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4852cee9bea8e35c02f", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4852cee9bea8e35c02f"
+        }, 
+        "name": "improved-rural-water-and-sanitation-systems-and-coverage", 
+        "label": "Improved Rural Water and Sanitation Systems and Coverage"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf32", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf32"
+        }, 
+        "name": "water-environment", 
+        "label": "Water & Environment"
+      }
+    }, 
+    {
+      "amount": 2364635083.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 20, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4812cee9bea8e35bfca", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4812cee9bea8e35bfca"
+        }, 
+        "name": "improved-and-more-sustainable-water-resources-management", 
+        "label": "Improved and more sustainable Water Resources Management"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf32", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf32"
+        }, 
+        "name": "water-environment", 
+        "label": "Water & Environment"
+      }
+    }, 
+    {
+      "amount": 34937070000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4c62cee9bea8e35c37d", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37d"
+        }, 
+        "name": "budget-support", 
+        "label": "Budget Support"
+      }, 
+      "num_entries": 8, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47b2cee9bea8e35bf28", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf28"
+        }, 
+        "name": "strong-local-governments-and-decentralisation", 
+        "label": "Strong local governments and decentralisation"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf2a", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf2a"
+        }, 
+        "name": "public-sector-management", 
+        "label": "Public Sector Management"
+      }
+    }, 
+    {
+      "amount": 12448910000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 19, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4aa2cee9bea8e35c204", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4aa2cee9bea8e35c204"
+        }, 
+        "name": "family-planning-and-reproductive-health", 
+        "label": "Family Planning and Reproductive Health"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf24", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf24"
+        }, 
+        "name": "health", 
+        "label": "Health"
+      }
+    }, 
+    {
+      "amount": 11149365540.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 35, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47f2cee9bea8e35bf93", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47f2cee9bea8e35bf93"
+        }, 
+        "name": "strong-macroeconomic-policies-and-performance", 
+        "label": "Strong Macroeconomic Policies and Performance"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47f2cee9bea8e35bf94", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47f2cee9bea8e35bf94"
+        }, 
+        "name": "macroeconomic-and-financial-sector-management", 
+        "label": "Macroeconomic and Financial Sector Management"
+      }
+    }, 
+    {
+      "amount": 11775647615.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 41, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4802cee9bea8e35bfa9", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4802cee9bea8e35bfa9"
+        }, 
+        "name": "improved-agricuture-policy-environment", 
+        "label": "Improved Agricuture Policy Environment"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf08", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf08"
+        }, 
+        "name": "agriculture", 
+        "label": "Agriculture"
+      }
+    }, 
+    {
+      "amount": 991620000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 6, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4842cee9bea8e35c018", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4842cee9bea8e35c018"
+        }, 
+        "name": "increased-mineral-and-petroleum-production", 
+        "label": "Increased Mineral and Petroleum production"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f4842cee9bea8e35c014", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4842cee9bea8e35c014"
+        }, 
+        "name": "energy-minerals", 
+        "label": "Energy & Minerals"
+      }
+    }, 
+    {
+      "amount": 7267040000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 9, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4c62cee9bea8e35c37a", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37a"
+        }, 
+        "name": "support-to-all-or-multiple-objectives-under-sector", 
+        "label": "Support to all or multiple objectives under sector"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf2e", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf2e"
+        }, 
+        "name": "roads-works", 
+        "label": "Roads & Works"
+      }
+    }, 
+    {
+      "amount": 1356560000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 5, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4a62cee9bea8e35c1a0", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a62cee9bea8e35c1a0"
+        }, 
+        "name": "increased-and-sustainable-fisheries-production", 
+        "label": "Increased and Sustainable Fisheries Production"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf08", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf08"
+        }, 
+        "name": "agriculture", 
+        "label": "Agriculture"
+      }
+    }, 
+    {
+      "amount": 2410858527.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 25, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47c2cee9bea8e35bf31", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf31"
+        }, 
+        "name": "improved-and-more-sustainable-environment-management-regime", 
+        "label": "Improved and more Sustainable Environment Management Regime"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf32", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf32"
+        }, 
+        "name": "water-environment", 
+        "label": "Water & Environment"
+      }
+    }, 
+    {
+      "amount": 2900000000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 1, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47a2cee9bea8e35beec", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35beec"
+        }, 
+        "name": "a-strong-presidency-and-cabinet", 
+        "label": "A strong Presidency and Cabinet"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47f2cee9bea8e35bf94", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47f2cee9bea8e35bf94"
+        }, 
+        "name": "macroeconomic-and-financial-sector-management", 
+        "label": "Macroeconomic and Financial Sector Management"
+      }
+    }, 
+    {
+      "amount": -13029750000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 2, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4c62cee9bea8e35c37a", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37a"
+        }, 
+        "name": "support-to-all-or-multiple-objectives-under-sector", 
+        "label": "Support to all or multiple objectives under sector"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf08", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf08"
+        }, 
+        "name": "agriculture", 
+        "label": "Agriculture"
+      }
+    }, 
+    {
+      "amount": 405939937531.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 18, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47b2cee9bea8e35bf1e", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf1e"
+        }, 
+        "name": "good-quality-universal-primary-education", 
+        "label": "Good Quality, Universal Primary Education"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf1b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf1b"
+        }, 
+        "name": "education", 
+        "label": "Education"
+      }
+    }, 
+    {
+      "amount": 61200000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 3, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4b42cee9bea8e35c2fe", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4b42cee9bea8e35c2fe"
+        }, 
+        "name": "effective-commercial-justice", 
+        "label": "Effective commercial justice"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47e2cee9bea8e35bf79", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47e2cee9bea8e35bf79"
+        }, 
+        "name": "justice-law-order", 
+        "label": "Justice, Law & Order"
+      }
+    }, 
+    {
+      "amount": 95136290065.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 33, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4842cee9bea8e35c00a", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4842cee9bea8e35c00a"
+        }, 
+        "name": "an-expanded-and-better-maintained-trunk-road-network", 
+        "label": "An expanded and better maintained trunk road network"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf2e", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf2e"
+        }, 
+        "name": "roads-works", 
+        "label": "Roads & Works"
+      }
+    }, 
+    {
+      "amount": 7877940000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4c62cee9bea8e35c37d", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37d"
+        }, 
+        "name": "budget-support", 
+        "label": "Budget Support"
+      }, 
+      "num_entries": 4, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47b2cee9bea8e35bf06", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf06"
+        }, 
+        "name": "effective-agriculture-education-advisory-and-extension-services", 
+        "label": "Effective Agriculture Education, Advisory and Extension Services"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf08", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf08"
+        }, 
+        "name": "agriculture", 
+        "label": "Agriculture"
+      }
+    }, 
+    {
+      "amount": 20594060000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 19, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47c2cee9bea8e35bf31", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf31"
+        }, 
+        "name": "improved-and-more-sustainable-environment-management-regime", 
+        "label": "Improved and more Sustainable Environment Management Regime"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf32", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf32"
+        }, 
+        "name": "water-environment", 
+        "label": "Water & Environment"
+      }
+    }, 
+    {
+      "amount": -12638020000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 4, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4c62cee9bea8e35c37a", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37a"
+        }, 
+        "name": "support-to-all-or-multiple-objectives-under-sector", 
+        "label": "Support to all or multiple objectives under sector"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf1b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf1b"
+        }, 
+        "name": "education", 
+        "label": "Education"
+      }
+    }, 
+    {
+      "amount": -543997200000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 15, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4c72cee9bea8e35c37f", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c72cee9bea8e35c37f"
+        }, 
+        "name": "full-paf-general-budget-support", 
+        "label": "Full/PAF General Budget Support"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f4c72cee9bea8e35c382", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c72cee9bea8e35c382"
+        }, 
+        "name": "full-paf-general-budget-support", 
+        "label": "Full/PAF General Budget Support"
+      }
+    }, 
+    {
+      "amount": 13720144223.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 18, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47b2cee9bea8e35bf19", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf19"
+        }, 
+        "name": "effective-universal-secondary-and-vocational-training", 
+        "label": "Effective, Universal Secondary and Vocational Training"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf1b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf1b"
+        }, 
+        "name": "education", 
+        "label": "Education"
+      }
+    }, 
+    {
+      "amount": 5067931843.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 22, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47e2cee9bea8e35bf81", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47e2cee9bea8e35bf81"
+        }, 
+        "name": "strong-justice-policy-and-legislation", 
+        "label": "Strong justice policy and legislation"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47e2cee9bea8e35bf79", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47e2cee9bea8e35bf79"
+        }, 
+        "name": "justice-law-order", 
+        "label": "Justice, Law & Order"
+      }
+    }, 
+    {
+      "amount": 16328068267.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 26, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47b2cee9bea8e35bf13", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf13"
+        }, 
+        "name": "community-development-social-protection", 
+        "label": "Community Development & Social Protection"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf15", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf15"
+        }, 
+        "name": "gender-labour-social-development", 
+        "label": "Gender, Labour & Social Development"
+      }
+    }, 
+    {
+      "amount": 27016997020.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 77, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4882cee9bea8e35c08f", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4882cee9bea8e35c08f"
+        }, 
+        "name": "improved-agriculture-research", 
+        "label": "Improved Agriculture Research"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf08", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf08"
+        }, 
+        "name": "agriculture", 
+        "label": "Agriculture"
+      }
+    }, 
+    {
+      "amount": 856468392.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 4, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47a2cee9bea8e35beec", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35beec"
+        }, 
+        "name": "a-strong-presidency-and-cabinet", 
+        "label": "A strong Presidency and Cabinet"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf2a", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf2a"
+        }, 
+        "name": "public-sector-management", 
+        "label": "Public Sector Management"
+      }
+    }, 
+    {
+      "amount": 70991938417.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 16, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47b2cee9bea8e35bf0d", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf0d"
+        }, 
+        "name": "supporting-cross-sectoral-local-government-service-delivery", 
+        "label": "Supporting Cross Sectoral Local Government Service Delivery"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf0f", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf0f"
+        }, 
+        "name": "cross-sectoral-programmes", 
+        "label": "Cross Sectoral Programmes"
+      }
+    }, 
+    {
+      "amount": 0.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 2, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47c2cee9bea8e35bf39", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf39"
+        }, 
+        "name": "strong-internal-and-external-security", 
+        "label": "Strong internal and external security"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf3b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf3b"
+        }, 
+        "name": "security", 
+        "label": "Security"
+      }
+    }, 
+    {
+      "amount": 78586328497.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 80, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47c2cee9bea8e35bf2c", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf2c"
+        }, 
+        "name": "an-expanded-and-better-maintained-district-and-urban-road-network", 
+        "label": "An expanded and better maintained district and urban road network"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf2e", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf2e"
+        }, 
+        "name": "roads-works", 
+        "label": "Roads & Works"
+      }
+    }, 
+    {
+      "amount": 302850080000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 32, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47c2cee9bea8e35bf4f", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf4f"
+        }, 
+        "name": "disaster-management-and-humanitarian-support", 
+        "label": "Disaster Management and Humanitarian Support"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf4d", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf4d"
+        }, 
+        "name": "disaster-management-and-the-north", 
+        "label": "Disaster Management and the North"
+      }
+    }, 
+    {
+      "amount": 961020000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4c62cee9bea8e35c37d", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37d"
+        }, 
+        "name": "budget-support", 
+        "label": "Budget Support"
+      }, 
+      "num_entries": 1, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47d2cee9bea8e35bf59", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47d2cee9bea8e35bf59"
+        }, 
+        "name": "effective-and-efficient-civil-service-delivery", 
+        "label": "Effective and efficient civil service delivery"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf2a", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf2a"
+        }, 
+        "name": "public-sector-management", 
+        "label": "Public Sector Management"
+      }
+    }, 
+    {
+      "amount": 89763529864.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 29, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47f2cee9bea8e35bfa2", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47f2cee9bea8e35bfa2"
+        }, 
+        "name": "an-effective-police-force-and-prisons-service", 
+        "label": "An effective Police Force and Prisons Service"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47e2cee9bea8e35bf79", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47e2cee9bea8e35bf79"
+        }, 
+        "name": "justice-law-order", 
+        "label": "Justice, Law & Order"
+      }
+    }, 
+    {
+      "amount": 38241295793.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 31, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47b2cee9bea8e35bf06", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf06"
+        }, 
+        "name": "effective-agriculture-education-advisory-and-extension-services", 
+        "label": "Effective Agriculture Education, Advisory and Extension Services"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf08", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf08"
+        }, 
+        "name": "agriculture", 
+        "label": "Agriculture"
+      }
+    }, 
+    {
+      "amount": 9932700000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 26, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4802cee9bea8e35bfa9", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4802cee9bea8e35bfa9"
+        }, 
+        "name": "improved-agricuture-policy-environment", 
+        "label": "Improved Agricuture Policy Environment"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf08", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf08"
+        }, 
+        "name": "agriculture", 
+        "label": "Agriculture"
+      }
+    }, 
+    {
+      "amount": 61198650000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4c62cee9bea8e35c37d", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37d"
+        }, 
+        "name": "budget-support", 
+        "label": "Budget Support"
+      }, 
+      "num_entries": 11, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4c62cee9bea8e35c37a", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37a"
+        }, 
+        "name": "support-to-all-or-multiple-objectives-under-sector", 
+        "label": "Support to all or multiple objectives under sector"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf24", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf24"
+        }, 
+        "name": "health", 
+        "label": "Health"
+      }
+    }, 
+    {
+      "amount": 70055213237.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 58, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47a2cee9bea8e35beec", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35beec"
+        }, 
+        "name": "a-strong-presidency-and-cabinet", 
+        "label": "A strong Presidency and Cabinet"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47a2cee9bea8e35beef", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35beef"
+        }, 
+        "name": "public-administration", 
+        "label": "Public Administration"
+      }
+    }, 
+    {
+      "amount": 4097852702.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 10, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47d2cee9bea8e35bf52", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47d2cee9bea8e35bf52"
+        }, 
+        "name": "post-conflict-reconstruction-northern-uganda-luwero-reconstruction", 
+        "label": "Post conflict reconstruction (Northern Uganda/Luwero Reconstruction)"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf4d", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf4d"
+        }, 
+        "name": "disaster-management-and-the-north", 
+        "label": "Disaster Management and the North"
+      }
+    }, 
+    {
+      "amount": 16267205116.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 10, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47c2cee9bea8e35bf39", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf39"
+        }, 
+        "name": "strong-internal-and-external-security", 
+        "label": "Strong internal and external security"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf3b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf3b"
+        }, 
+        "name": "security", 
+        "label": "Security"
+      }
+    }, 
+    {
+      "amount": 141115448305.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 38, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47b2cee9bea8e35bf28", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf28"
+        }, 
+        "name": "strong-local-governments-and-decentralisation", 
+        "label": "Strong local governments and decentralisation"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf2a", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf2a"
+        }, 
+        "name": "public-sector-management", 
+        "label": "Public Sector Management"
+      }
+    }, 
+    {
+      "amount": 11496600000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 15, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4862cee9bea8e35c03f", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4862cee9bea8e35c03f"
+        }, 
+        "name": "a-strong-parliament-and-independent-electoral-process", 
+        "label": "A strong Parliament and Independent Electoral Process"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47a2cee9bea8e35beef", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35beef"
+        }, 
+        "name": "public-administration", 
+        "label": "Public Administration"
+      }
+    }, 
+    {
+      "amount": 29053394197.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 25, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4822cee9bea8e35bfe9", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4822cee9bea8e35bfe9"
+        }, 
+        "name": "effective-health-policies-and-quality-assurance", 
+        "label": "Effective health policies and quality assurance"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf24", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf24"
+        }, 
+        "name": "health", 
+        "label": "Health"
+      }
+    }, 
+    {
+      "amount": 51812039786.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 50, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47f2cee9bea8e35bf8e", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47f2cee9bea8e35bf8e"
+        }, 
+        "name": "strengthened-public-financial-management", 
+        "label": "Strengthened Public Financial Management"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47a2cee9bea8e35bef9", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef9"
+        }, 
+        "name": "accountability", 
+        "label": "Accountability"
+      }
+    }, 
+    {
+      "amount": 13075898796.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 33, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4802cee9bea8e35bfc1", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4802cee9bea8e35bfc1"
+        }, 
+        "name": "strong-and-effective-land-and-housing-policies-and-implementation", 
+        "label": "Strong and effective land and housing policies and implementation"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f4802cee9bea8e35bfc3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4802cee9bea8e35bfc3"
+        }, 
+        "name": "lands-housing-urban-development", 
+        "label": "Lands, Housing & Urban Development"
+      }
+    }, 
+    {
+      "amount": 0.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 8, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4812cee9bea8e35bfca", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4812cee9bea8e35bfca"
+        }, 
+        "name": "improved-and-more-sustainable-water-resources-management", 
+        "label": "Improved and more sustainable Water Resources Management"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf32", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf32"
+        }, 
+        "name": "water-environment", 
+        "label": "Water & Environment"
+      }
+    }, 
+    {
+      "amount": 0.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 4, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4882cee9bea8e35c08b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4882cee9bea8e35c08b"
+        }, 
+        "name": "increased-revenue-collection", 
+        "label": "Increased Revenue Collection"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47a2cee9bea8e35beef", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35beef"
+        }, 
+        "name": "public-administration", 
+        "label": "Public Administration"
+      }
+    }, 
+    {
+      "amount": 944459164.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 7, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47c2cee9bea8e35bf4b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf4b"
+        }, 
+        "name": "conflict-resolution", 
+        "label": "conflict Resolution"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf4d", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf4d"
+        }, 
+        "name": "disaster-management-and-the-north", 
+        "label": "Disaster Management and the North"
+      }
+    }, 
+    {
+      "amount": 7304930000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 6, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4852cee9bea8e35c02f", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4852cee9bea8e35c02f"
+        }, 
+        "name": "improved-rural-water-and-sanitation-systems-and-coverage", 
+        "label": "Improved Rural Water and Sanitation Systems and Coverage"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf32", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf32"
+        }, 
+        "name": "water-environment", 
+        "label": "Water & Environment"
+      }
+    }, 
+    {
+      "amount": 19914182958.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 41, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47c2cee9bea8e35bf2c", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf2c"
+        }, 
+        "name": "an-expanded-and-better-maintained-district-and-urban-road-network", 
+        "label": "An expanded and better maintained district and urban road network"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf2e", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf2e"
+        }, 
+        "name": "roads-works", 
+        "label": "Roads & Works"
+      }
+    }, 
+    {
+      "amount": 12751510000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 22, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47a2cee9bea8e35bef7", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef7"
+        }, 
+        "name": "increased-integrity-and-reduced-corruption", 
+        "label": "Increased Integrity and reduced Corruption"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47a2cee9bea8e35bef9", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef9"
+        }, 
+        "name": "accountability", 
+        "label": "Accountability"
+      }
+    }, 
+    {
+      "amount": 0.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 3, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4a62cee9bea8e35c1a4", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a62cee9bea8e35c1a4"
+        }, 
+        "name": "improved-rail-waterways-and-other-transport-infrastructure", 
+        "label": "Improved rail, waterways and other transport infrastructure"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf2e", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf2e"
+        }, 
+        "name": "roads-works", 
+        "label": "Roads & Works"
+      }
+    }, 
+    {
+      "amount": 14787186875.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 59, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4822cee9bea8e35bff5", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4822cee9bea8e35bff5"
+        }, 
+        "name": "rapidly-increasing-tourism-trade-and-private-sector-production", 
+        "label": "Rapidly increasing Tourism, Trade and Private Sector Production"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f4822cee9bea8e35bff6", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4822cee9bea8e35bff6"
+        }, 
+        "name": "tourism-trade-industry", 
+        "label": "Tourism, Trade & Industry"
+      }
+    }, 
+    {
+      "amount": 1218356000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 1, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4a62cee9bea8e35c18f", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a62cee9bea8e35c18f"
+        }, 
+        "name": "support-to-other-objectives-relevant-to-sector", 
+        "label": "support to other objectives relevant to sector"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf08", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf08"
+        }, 
+        "name": "agriculture", 
+        "label": "Agriculture"
+      }
+    }, 
+    {
+      "amount": 0.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 1, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4a62cee9bea8e35c18f", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a62cee9bea8e35c18f"
+        }, 
+        "name": "support-to-other-objectives-relevant-to-sector", 
+        "label": "support to other objectives relevant to sector"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf1b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf1b"
+        }, 
+        "name": "education", 
+        "label": "Education"
+      }
+    }, 
+    {
+      "amount": 1119880000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 8, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4a62cee9bea8e35c1a0", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a62cee9bea8e35c1a0"
+        }, 
+        "name": "increased-and-sustainable-fisheries-production", 
+        "label": "Increased and Sustainable Fisheries Production"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf08", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf08"
+        }, 
+        "name": "agriculture", 
+        "label": "Agriculture"
+      }
+    }, 
+    {
+      "amount": 7178036334.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 33, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47b2cee9bea8e35bf13", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf13"
+        }, 
+        "name": "community-development-social-protection", 
+        "label": "Community Development & Social Protection"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf15", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf15"
+        }, 
+        "name": "gender-labour-social-development", 
+        "label": "Gender, Labour & Social Development"
+      }
+    }, 
+    {
+      "amount": 19665410000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 23, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4812cee9bea8e35bfdb", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4812cee9bea8e35bfdb"
+        }, 
+        "name": "high-education-standards-and-effective-policy", 
+        "label": "High education standards and effective policy"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf1b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf1b"
+        }, 
+        "name": "education", 
+        "label": "Education"
+      }
+    }, 
+    {
+      "amount": 137825350000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 51, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4862cee9bea8e35c052", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4862cee9bea8e35c052"
+        }, 
+        "name": "fighting-hiv-aids", 
+        "label": "Fighting HIV/AIDS"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf24", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf24"
+        }, 
+        "name": "health", 
+        "label": "Health"
+      }
+    }, 
+    {
+      "amount": -11620430000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 4, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4c62cee9bea8e35c37a", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37a"
+        }, 
+        "name": "support-to-all-or-multiple-objectives-under-sector", 
+        "label": "Support to all or multiple objectives under sector"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47e2cee9bea8e35bf79", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47e2cee9bea8e35bf79"
+        }, 
+        "name": "justice-law-order", 
+        "label": "Justice, Law & Order"
+      }
+    }, 
+    {
+      "amount": 0.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 4, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4b02cee9bea8e35c29b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4b02cee9bea8e35c29b"
+        }, 
+        "name": "increased-provision-of-water-in-support-of-production", 
+        "label": "Increased Provision of Water in Support of Production"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf32", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf32"
+        }, 
+        "name": "water-environment", 
+        "label": "Water & Environment"
+      }
+    }, 
+    {
+      "amount": 347905469530.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 11, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47d2cee9bea8e35bf60", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47d2cee9bea8e35bf60"
+        }, 
+        "name": "an-effective-armed-forces", 
+        "label": "An effective armed forces"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf3b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf3b"
+        }, 
+        "name": "security", 
+        "label": "Security"
+      }
+    }, 
+    {
+      "amount": 2175581816.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 7, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4842cee9bea8e35c01f", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4842cee9bea8e35c01f"
+        }, 
+        "name": "more-gender-responsive-policies-practices-and-service-delivery", 
+        "label": "More Gender Responsive Policies, Practices and Service Delivery"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf15", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf15"
+        }, 
+        "name": "gender-labour-social-development", 
+        "label": "Gender, Labour & Social Development"
+      }
+    }, 
+    {
+      "amount": 7193210000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 8, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4b42cee9bea8e35c308", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4b42cee9bea8e35c308"
+        }, 
+        "name": "cross-sectoral-service-delivery-administered-centrally", 
+        "label": "Cross Sectoral Service Delivery administered Centrally"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf2a", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf2a"
+        }, 
+        "name": "public-sector-management", 
+        "label": "Public Sector Management"
+      }
+    }, 
+    {
+      "amount": 11620430000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4c62cee9bea8e35c37d", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37d"
+        }, 
+        "name": "budget-support", 
+        "label": "Budget Support"
+      }, 
+      "num_entries": 4, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4c62cee9bea8e35c37a", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37a"
+        }, 
+        "name": "support-to-all-or-multiple-objectives-under-sector", 
+        "label": "Support to all or multiple objectives under sector"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47e2cee9bea8e35bf79", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47e2cee9bea8e35bf79"
+        }, 
+        "name": "justice-law-order", 
+        "label": "Justice, Law & Order"
+      }
+    }, 
+    {
+      "amount": 860000000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 2, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4af2cee9bea8e35c275", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4af2cee9bea8e35c275"
+        }, 
+        "name": "education-in-conflict-and-remote-areas", 
+        "label": "Education in conflict and remote areas"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf1b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf1b"
+        }, 
+        "name": "education", 
+        "label": "Education"
+      }
+    }, 
+    {
+      "amount": 51530510000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 36, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4842cee9bea8e35c013", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4842cee9bea8e35c013"
+        }, 
+        "name": "adequate-and-reliable-energy-provision", 
+        "label": "Adequate and reliable Energy provision"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f4842cee9bea8e35c014", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4842cee9bea8e35c014"
+        }, 
+        "name": "energy-minerals", 
+        "label": "Energy & Minerals"
+      }
+    }, 
+    {
+      "amount": 16420186339.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 24, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4812cee9bea8e35bfdb", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4812cee9bea8e35bfdb"
+        }, 
+        "name": "high-education-standards-and-effective-policy", 
+        "label": "High education standards and effective policy"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf1b", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf1b"
+        }, 
+        "name": "education", 
+        "label": "Education"
+      }
+    }, 
+    {
+      "amount": 8092670000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 8, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4812cee9bea8e35bfcd", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4812cee9bea8e35bfcd"
+        }, 
+        "name": "increased-and-more-sustainable-forestry-production", 
+        "label": "Increased and more sustainable Forestry Production"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf32", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf32"
+        }, 
+        "name": "water-environment", 
+        "label": "Water & Environment"
+      }
+    }, 
+    {
+      "amount": 122883735309.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 44, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47d2cee9bea8e35bf59", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47d2cee9bea8e35bf59"
+        }, 
+        "name": "effective-and-efficient-civil-service-delivery", 
+        "label": "Effective and efficient civil service delivery"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47b2cee9bea8e35bf2a", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47b2cee9bea8e35bf2a"
+        }, 
+        "name": "public-sector-management", 
+        "label": "Public Sector Management"
+      }
+    }, 
+    {
+      "amount": 0.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 2, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47f2cee9bea8e35bfa2", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47f2cee9bea8e35bfa2"
+        }, 
+        "name": "an-effective-police-force-and-prisons-service", 
+        "label": "An effective Police Force and Prisons Service"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47e2cee9bea8e35bf79", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47e2cee9bea8e35bf79"
+        }, 
+        "name": "justice-law-order", 
+        "label": "Justice, Law & Order"
+      }
+    }, 
+    {
+      "amount": 12049688832.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4a32cee9bea8e35c141", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4a32cee9bea8e35c141"
+        }, 
+        "name": "aid", 
+        "label": "Aid"
+      }, 
+      "num_entries": 27, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f47f2cee9bea8e35bf93", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47f2cee9bea8e35bf93"
+        }, 
+        "name": "strong-macroeconomic-policies-and-performance", 
+        "label": "Strong Macroeconomic Policies and Performance"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47f2cee9bea8e35bf94", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47f2cee9bea8e35bf94"
+        }, 
+        "name": "macroeconomic-and-financial-sector-management", 
+        "label": "Macroeconomic and Financial Sector Management"
+      }
+    }, 
+    {
+      "amount": 180000000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 2, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4b12cee9bea8e35c2b6", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4b12cee9bea8e35c2b6"
+        }, 
+        "name": "improved-and-more-sustainable-management-of-wetlands", 
+        "label": "Improved and more sustainable management of wetlands"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf32", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf32"
+        }, 
+        "name": "water-environment", 
+        "label": "Water & Environment"
+      }
+    }, 
+    {
+      "amount": 16766720000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f4c62cee9bea8e35c37d", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4c62cee9bea8e35c37d"
+        }, 
+        "name": "budget-support", 
+        "label": "Budget Support"
+      }, 
+      "num_entries": 2, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4852cee9bea8e35c02f", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4852cee9bea8e35c02f"
+        }, 
+        "name": "improved-rural-water-and-sanitation-systems-and-coverage", 
+        "label": "Improved Rural Water and Sanitation Systems and Coverage"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47c2cee9bea8e35bf32", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47c2cee9bea8e35bf32"
+        }, 
+        "name": "water-environment", 
+        "label": "Water & Environment"
+      }
+    }, 
+    {
+      "amount": 2670000000.0, 
+      "spending_source_type": {
+        "taxonomy": "uganda-spending-source-type", 
+        "_id": "4e27f47a2cee9bea8e35bef3", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35bef3"
+        }, 
+        "name": "government-of-uganda", 
+        "label": "Government of Uganda"
+      }, 
+      "num_entries": 5, 
+      "sector_objective": {
+        "taxonomy": "uganda-swg-sector-objective", 
+        "_id": "4e27f4862cee9bea8e35c04c", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f4862cee9bea8e35c04c"
+        }, 
+        "name": "improved-human-rights", 
+        "label": "Improved Human Rights"
+      }, 
+      "swg": {
+        "taxonomy": "uganda-swg", 
+        "_id": "4e27f47a2cee9bea8e35beef", 
+        "ref": {
+          "$ref": "classifier", 
+          "$id": "4e27f47a2cee9bea8e35beef"
+        }, 
+        "name": "public-administration", 
+        "label": "Public Administration"
+      }
+    }
+  ], 
+  "summary": {
+    "amount": 3820455206378.0, 
+    "num_drilldowns": 132, 
+    "pagesize": 10000, 
+    "pages": 1.0, 
+    "num_entries": 2327, 
+    "page": 1
+  }
+}
