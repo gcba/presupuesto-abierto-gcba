@@ -7,12 +7,12 @@
         "url"   : "http://dmitry.baranovskiy.com"
     },
 	"description" : "Simple custom events",
-    "version" : "0.4.1",
+    "version" : "0.5.0",
 
     "main"    : "./eve.js",
 
     "repository": {
         "type": "git",
-        "url": "git@github.com:adobe/eve.git"
+        "url": "git@github.com:adobe-webplatform/eve.git"
     }
 }

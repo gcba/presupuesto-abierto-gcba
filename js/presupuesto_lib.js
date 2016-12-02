@@ -44,7 +44,7 @@ Presupuesto = {
     CSCALE: ['#DF4944', '#EE9224', '#FAD448', '#1FB7DC', '#0F74C7', '#2AB186', '#88B84D', '#CBD640', '#2F3E4B', '#8A55A7', '#F04691'],
     REPLACEMENTS: {
         'fun_desc': {
-            'Servicios Urbanos': 'Mantenimiento Urbano',
+            'Servicios Urbanos': 'Servicios Urbano',
             'Seguridad Interior': 'Seguridad'
         },
         'inciso_desc': {
@@ -106,7 +106,7 @@ Presupuesto = {
             'Transporte': {
                 icon: 'icons/bubble/transporte.svg'
             },
-            'Mantenimiento Urbano': {
+            'Servicios Urbanos': {
                 icon: 'icons/bubble/servicios_urbanos.svg'
             },
             'Ecología': {
@@ -213,7 +213,7 @@ Presupuesto = {
                     chart
                             .type('stacked')
                             .y(selectedMeasure)
-                            .x('anio')
+                            .x({value: 'anio', label: 'Año'})
                             .time({value: 'anio', solo: []})
                             .timeline(false)
                             .depth(0)

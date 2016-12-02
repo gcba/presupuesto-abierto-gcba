@@ -2,7 +2,7 @@
  * @license
  * lodash (Custom Build) <https://lodash.com/>
  * Build: `lodash core -o ./dist/lodash.core.js`
- * Copyright jQuery Foundation and other contributors <https://jquery.org/>
+ * Copyright JS Foundation and other contributors <https://js.foundation/>
  * Released under MIT license <https://lodash.com/license>
  * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
  * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
@@ -13,7 +13,7 @@
   var undefined;
 
   /** Used as the semantic version number. */
-  var VERSION = '4.16.2';
+  var VERSION = '4.16.6';
 
   /** Error message constants. */
   var FUNC_ERROR_TEXT = 'Expected a function';
@@ -33,6 +33,7 @@
   /** `Object#toString` result references. */
   var argsTag = '[object Arguments]',
       arrayTag = '[object Array]',
+      asyncTag = '[object AsyncFunction]',
       boolTag = '[object Boolean]',
       dateTag = '[object Date]',
       errorTag = '[object Error]',
@@ -40,6 +41,7 @@
       genTag = '[object GeneratorFunction]',
       numberTag = '[object Number]',
       objectTag = '[object Object]',
+      proxyTag = '[object Proxy]',
       regexpTag = '[object RegExp]',
       stringTag = '[object String]';
 
@@ -213,7 +215,7 @@
    * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
    * of values.
    */
-  var objectToString = objectProto.toString;
+  var nativeObjectToString = objectProto.toString;
 
   /** Used to restore the original `_` reference in `_.noConflict`. */
   var oldDash = root._;
@@ -369,7 +371,7 @@
       if (objectCreate) {
         return objectCreate(proto);
       }
-      object.prototype = prototype;
+      object.prototype = proto;
       var result = new object;
       object.prototype = undefined;
       return result;
@@ -610,6 +612,17 @@
   }
 
   /**
+   * The base implementation of `getTag` without fallbacks for buggy environments.
+   *
+   * @private
+   * @param {*} value The value to query.
+   * @returns {string} Returns the `toStringTag`.
+   */
+  function baseGetTag(value) {
+    return objectToString(value);
+  }
+
+  /**
    * The base implementation of `_.gt` which doesn't coerce arguments.
    *
    * @private
@@ -623,6 +636,15 @@
   }
 
   /**
+   * The base implementation of `_.isArguments`.
+   *
+   * @private
+   * @param {*} value The value to check.
+   * @returns {boolean} Returns `true` if `value` is an `arguments` object,
+   */
+  var baseIsArguments = noop;
+
+  /**
    * The base implementation of `_.isDate` without Node.js optimizations.
    *
    * @private
@@ -630,7 +652,7 @@
    * @returns {boolean} Returns `true` if `value` is a date object, else `false`.
    */
   function baseIsDate(value) {
-    return isObjectLike(value) && objectToString.call(value) == dateTag;
+    return isObjectLike(value) && baseGetTag(value) == dateTag;
   }
 
   /**
@@ -680,11 +702,11 @@
         othTag = arrayTag;
 
     if (!objIsArr) {
-      objTag = objectToString.call(object);
+      objTag = baseGetTag(object);
       objTag = objTag == argsTag ? objectTag : objTag;
     }
     if (!othIsArr) {
-      othTag = objectToString.call(other);
+      othTag = baseGetTag(other);
       othTag = othTag == argsTag ? objectTag : othTag;
     }
     var objIsObj = objTag == objectTag,
@@ -739,7 +761,7 @@
    * @returns {boolean} Returns `true` if `value` is a regexp, else `false`.
    */
   function baseIsRegExp(value) {
-    return isObject(value) && objectToString.call(value) == regexpTag;
+    return isObjectLike(value) && baseGetTag(value) == regexpTag;
   }
 
   /**
@@ -1372,6 +1394,17 @@
   }
 
   /**
+   * Converts `value` to a string using `Object.prototype.toString`.
+   *
+   * @private
+   * @param {*} value The value to convert.
+   * @returns {string} Returns the converted string.
+   */
+  function objectToString(value) {
+    return nativeObjectToString.call(value);
+  }
+
+  /**
    * A specialized version of `baseRest` which transforms the rest array.
    *
    * @private
@@ -1487,8 +1520,7 @@
    * @since 1.1.0
    * @category Array
    * @param {Array} array The array to inspect.
-   * @param {Function} [predicate=_.identity]
-   *  The function invoked per iteration.
+   * @param {Function} [predicate=_.identity] The function invoked per iteration.
    * @param {number} [fromIndex=0] The index to search from.
    * @returns {number} Returns the index of the found element, else `-1`.
    * @example
@@ -1515,7 +1547,7 @@
    * // => 2
    */
   function findIndex(array, predicate, fromIndex) {
-    var length = array ? array.length : 0;
+    var length = array == null ? 0 : array.length;
     if (!length) {
       return -1;
     }
@@ -1541,7 +1573,7 @@
    * // => [1, 2, [3, [4]], 5]
    */
   function flatten(array) {
-    var length = array ? array.length : 0;
+    var length = array == null ? 0 : array.length;
     return length ? baseFlatten(array, 1) : [];
   }
 
@@ -1560,7 +1592,7 @@
    * // => [1, 2, 3, 4, 5]
    */
   function flattenDeep(array) {
-    var length = array ? array.length : 0;
+    var length = array == null ? 0 : array.length;
     return length ? baseFlatten(array, INFINITY) : [];
   }
 
@@ -1610,7 +1642,7 @@
    * // => 3
    */
   function indexOf(array, value, fromIndex) {
-    var length = array ? array.length : 0;
+    var length = array == null ? 0 : array.length;
     if (typeof fromIndex == 'number') {
       fromIndex = fromIndex < 0 ? nativeMax(length + fromIndex, 0) : fromIndex;
     } else {
@@ -1643,7 +1675,7 @@
    * // => 3
    */
   function last(array) {
-    var length = array ? array.length : 0;
+    var length = array == null ? 0 : array.length;
     return length ? array[length - 1] : undefined;
   }
 
@@ -1664,7 +1696,7 @@
    * @returns {Array} Returns the slice of `array`.
    */
   function slice(array, start, end) {
-    var length = array ? array.length : 0;
+    var length = array == null ? 0 : array.length;
     start = start == null ? 0 : +start;
     end = end === undefined ? length : +end;
     return length ? baseSlice(array, start, end) : [];
@@ -1828,8 +1860,7 @@
    * @since 0.1.0
    * @category Collection
    * @param {Array|Object} collection The collection to iterate over.
-   * @param {Function} [predicate=_.identity]
-   *  The function invoked per iteration.
+   * @param {Function} [predicate=_.identity] The function invoked per iteration.
    * @param- {Object} [guard] Enables use as an iteratee for methods like `_.map`.
    * @returns {boolean} Returns `true` if all elements pass the predicate check,
    *  else `false`.
@@ -1872,8 +1903,7 @@
    * @since 0.1.0
    * @category Collection
    * @param {Array|Object} collection The collection to iterate over.
-   * @param {Function} [predicate=_.identity]
-   *  The function invoked per iteration.
+   * @param {Function} [predicate=_.identity] The function invoked per iteration.
    * @returns {Array} Returns the new filtered array.
    * @see _.reject
    * @example
@@ -1912,8 +1942,7 @@
    * @since 0.1.0
    * @category Collection
    * @param {Array|Object} collection The collection to inspect.
-   * @param {Function} [predicate=_.identity]
-   *  The function invoked per iteration.
+   * @param {Function} [predicate=_.identity] The function invoked per iteration.
    * @param {number} [fromIndex=0] The index to search from.
    * @returns {*} Returns the matched element, else `undefined`.
    * @example
@@ -2433,11 +2462,10 @@
    * _.isArguments([1, 2, 3]);
    * // => false
    */
-  function isArguments(value) {
-    // Safari 8.1 makes `arguments.callee` enumerable in strict mode.
-    return isArrayLikeObject(value) && hasOwnProperty.call(value, 'callee') &&
-      (!propertyIsEnumerable.call(value, 'callee') || objectToString.call(value) == argsTag);
-  }
+  var isArguments = baseIsArguments(function() { return arguments; }()) ? baseIsArguments : function(value) {
+    return isObjectLike(value) && hasOwnProperty.call(value, 'callee') &&
+      !propertyIsEnumerable.call(value, 'callee');
+  };
 
   /**
    * Checks if `value` is classified as an `Array` object.
@@ -2494,35 +2522,6 @@
   }
 
   /**
-   * This method is like `_.isArrayLike` except that it also checks if `value`
-   * is an object.
-   *
-   * @static
-   * @memberOf _
-   * @since 4.0.0
-   * @category Lang
-   * @param {*} value The value to check.
-   * @returns {boolean} Returns `true` if `value` is an array-like object,
-   *  else `false`.
-   * @example
-   *
-   * _.isArrayLikeObject([1, 2, 3]);
-   * // => true
-   *
-   * _.isArrayLikeObject(document.body.children);
-   * // => true
-   *
-   * _.isArrayLikeObject('abc');
-   * // => false
-   *
-   * _.isArrayLikeObject(_.noop);
-   * // => false
-   */
-  function isArrayLikeObject(value) {
-    return isObjectLike(value) && isArrayLike(value);
-  }
-
-  /**
    * Checks if `value` is classified as a boolean primitive or object.
    *
    * @static
@@ -2541,7 +2540,7 @@
    */
   function isBoolean(value) {
     return value === true || value === false ||
-      (isObjectLike(value) && objectToString.call(value) == boolTag);
+      (isObjectLike(value) && baseGetTag(value) == boolTag);
   }
 
   /**
@@ -2685,10 +2684,13 @@
    * // => false
    */
   function isFunction(value) {
+    if (!isObject(value)) {
+      return false;
+    }
     // The use of `Object#toString` avoids issues with the `typeof` operator
-    // in Safari 8-9 which returns 'object' for typed array and other constructors.
-    var tag = isObject(value) ? objectToString.call(value) : '';
-    return tag == funcTag || tag == genTag;
+    // in Safari 9 which returns 'object' for typed arrays and other constructors.
+    var tag = baseGetTag(value);
+    return tag == funcTag || tag == genTag || tag == asyncTag || tag == proxyTag;
   }
 
   /**
@@ -2864,7 +2866,7 @@
    */
   function isNumber(value) {
     return typeof value == 'number' ||
-      (isObjectLike(value) && objectToString.call(value) == numberTag);
+      (isObjectLike(value) && baseGetTag(value) == numberTag);
   }
 
   /**
@@ -2905,7 +2907,7 @@
    */
   function isString(value) {
     return typeof value == 'string' ||
-      (!isArray(value) && isObjectLike(value) && objectToString.call(value) == stringTag);
+      (!isArray(value) && isObjectLike(value) && baseGetTag(value) == stringTag);
   }
 
   /**
@@ -3020,8 +3022,8 @@
    * @memberOf _
    * @since 4.0.0
    * @category Lang
-   * @param {*} value The value to process.
-   * @returns {string} Returns the string.
+   * @param {*} value The value to convert.
+   * @returns {string} Returns the converted string.
    * @example
    *
    * _.toString(null);
@@ -3182,7 +3184,7 @@
    */
   function create(prototype, properties) {
     var result = baseCreate(prototype);
-    return properties ? assign(result, properties) : result;
+    return properties == null ? result : assign(result, properties);
   }
 
   /**
@@ -3382,7 +3384,7 @@
    * // => ['h', 'i']
    */
   function values(object) {
-    return object ? baseValues(object, keys(object)) : [];
+    return object == null ? [] : baseValues(object, keys(object));
   }
 
   /*------------------------------------------------------------------------*/
