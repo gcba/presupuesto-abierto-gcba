@@ -23,8 +23,9 @@ d3.csv('Data/presu_agrupado.csv')
 
       // finalidad y función para el bubble tree
       // se muestra solo para 2016
-      var b = Presupuesto.toBubbleTree(_.filter(rows, function(d) { return d.anio === '2016' }),
+      var b = Presupuesto.toBubbleTree(_.filter(_.filter(rows, function(d) { return d.anio === '2016' }), function(d) { return d.vigente > 0}),
                                        'vigente');
+      
       new BubbleTree({
           data: b,
           container: '.bubbletree',
@@ -35,10 +36,10 @@ d3.csv('Data/presu_agrupado.csv')
 
       // secciones
       var classifications = [
-          { classification: 'quien', dimension: 'jur_desc' },
+          { classification: 'quien', dimension: ['jur_desc', 'fin_desc'] }, //{ classification: 'quien', dimension: ['fin_desc', 'jur_desc'] },
           { classification: 'que', dimension: ['inciso_desc', 'ppal_desc'] },
           { classification: 'paraque', dimension: ['fin_desc', 'fun_desc']  },
-          { classification: 'como', dimension: 'ff_desc' },
+          { classification: 'como', dimension: ['ff_desc', 'fin_desc'] }, //{ classification: 'como', dimension: ['fin_desc', 'ff_desc'] },
       ];
 
       classifications.forEach(function(c) {

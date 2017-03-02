@@ -2,7 +2,7 @@ $(function() {
     $('[data-toggle="popover"]').popover({ trigger: "hover" });
     var iframes = {
         'quien': {
-            dimension: 'jur_desc'
+            dimension: ['jur_desc', 'fin_desc']
         },
         'que': {
             dimension: ['inciso_desc', 'ppal_desc']
@@ -11,7 +11,7 @@ $(function() {
             dimension: ['fin_desc', 'fun_desc']
         },
         'como-se-financia': {
-            dimension: 'ff_desc'
+            dimension: ['ff_desc', 'fin_desc']
         }
     };
     var id = Presupuesto.getQueryVariable('id');
@@ -30,10 +30,7 @@ $(function() {
                     .append('div')
                     .attr('class', 'bubbletree');
 
-                  var b = Presupuesto.toBubbleTree(_.filter(rows,
-                                                            function(d) {
-                                                                return d.anio === '2016'
-                                                            }),
+                  var b = Presupuesto.toBubbleTree(_.filter(_.filter(rows, function(d) { return d.anio === '2016' }), function(d) { return d.vigente > 0}),
                                                    'vigente');
                   new BubbleTree({
                       data: b,

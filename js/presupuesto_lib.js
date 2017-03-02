@@ -205,7 +205,7 @@ Presupuesto = {
                                 threshold: false
                             })
                             .legend({filters: true})
-                            .depth(_.isArray(dimension) ? 1 : 0)
+                            //.depth(_.isArray(dimension) ? 1 : 0)
                             .title({total: true})
                             .draw();
                     break;

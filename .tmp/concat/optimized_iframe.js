@@ -86201,7 +86201,7 @@ var BubbleTree = function(config, onHover, onUnHover) {
         base = Math.pow((Math.pow(rt.amount, 0.6) + Math.pow(rt.maxChildAmount, 0.6)*2) / maxRad, 1.6666666667);
         //base = 1.6666666667;
         me.a2radBase = me.ns.a2radBase = base;
-        console.log('BASE', me);
+        //console.log('BASE', me);
         me.origin = origin;
 
         $(window).resize(me.onResize.bind(me));
@@ -86818,7 +86818,7 @@ BubbleTree.Line = function(bc, attr, origin, angle, fromRad, toRad) {
 
     this.init = function() {
         this.getXY();
-        console.log("foo", "M"+this.x1+" "+this.y1+"L"+this.x2+" "+this.y2, attr);
+        //console.log("foo", "M"+this.x1+" "+this.y1+"L"+this.x2+" "+this.y2, attr);
         this.path = this.bc.paper.path(
             "M"+this.x1+" "+this.y1+"L"+this.x2+" "+this.y2
         ).attr(this.attr);
@@ -86856,7 +86856,7 @@ BubbleTree.Loader = function(config) {
      */
     me.loadData = function() {
         var me = this, url = me.config.data;
-        console.log('loading url ',url);
+        //console.log('loading url ',url);
         $.ajax({
             url: url,
             context: me,
@@ -87754,7 +87754,7 @@ BubbleTree.Bubbles.Icon = function(node, bubblechart, origin, radius, angle, col
     me.ns = ns;
     me.pos = ns.Vector(0,0);
     me.bubbleRad = utils.amount2rad(this.node.amount);
-
+    
     me.iconLoaded = false;
 
     /*
@@ -87820,7 +87820,7 @@ BubbleTree.Bubbles.Icon = function(node, bubblechart, origin, radius, angle, col
         }
 
         // additional label
-        me.label2 = $('<div class="bubbletree-label2 '+me.node.id+'"><span>'+me.node.shortLabel+'</span></div>');
+        me.label2 = $('<div class="bubbletree-label2 '+me.node.id+'"><span><strong class="number-label2">' + utils.formatNumber(me.node.amount) + '</strong> <br>'+me.node.shortLabel+'</span></div>');
         me.bc.$container.append(me.label2);
 
         if (me.node.children.length > 0) {
@@ -87974,10 +87974,12 @@ BubbleTree.Bubbles.Icon = function(node, bubblechart, origin, radius, angle, col
         if (!showLabel) {
             me.label.hide();
             me.label2.show();
+            me.label2.find('.number-label2').show();
         } else {
             me.label.show();
             if ((showIcon && r < 70) || (!showIcon && r < 40)) {
                 me.label.find('.bubbletree-desc').hide();
+                me.label2.find('.number-label2').hide();
                 me.label2.show();
             } else {
                 // full label
