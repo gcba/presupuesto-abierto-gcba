@@ -60,15 +60,15 @@ Presupuesto = {
     BUBBLE_STYLES: {
         id: {
             'Total': {
-                color: '#1f77b4',
+                color: '#cccccc',
                 icon: 'icons/bubble/total.svg'
             },
             'DEUDA PUBLICA, INTERESES Y GASTOS': {
-                color: '#0f74c7'
+                color: '#f3a32d'
             },
             'SERVICIOS SOCIALES': {
                 icon: 'icons/bubble/servicios_sociales.svg',
-                color: '#1fb7dc'
+                color: '#2ebc98'
             },
             'SERVICIOS ECONOMICOS': {
                 icon: 'icons/bubble/servicios_economicos.svg',
@@ -76,7 +76,7 @@ Presupuesto = {
             },
             'ADMINISTRACION GUBERNAMENTAL': {
                 icon: 'icons/bubble/administracion_gubernamental.svg',
-                color: '#9d6db6'
+                color: '#34485e'
             },
             'SERVICIOS DE SEGURIDAD': {
                 icon: 'icons/bubble/servicios_de_seguridad.svg',
@@ -84,15 +84,15 @@ Presupuesto = {
             },
             'EDUCACION': {
                 icon: 'icons/bubble/educacion.svg',
-                color: '#19c3e3'
+                //color: '#19c3e3'
             },
             'CULTURA': {
                 icon: 'icons/bubble/cultura.svg',
-                color: '#f562a2'
+                //color: '#f562a2'
             },
             'SALUD': {
                 icon: 'icons/bubble/salud.svg',
-                color: '#2ebc98'
+                //color: '#2ebc98'
             },
             'VIVIENDA': {
                 icon: 'icons/bubble/vivienda.svg'
@@ -110,15 +110,15 @@ Presupuesto = {
             },
             'TRANSPORTE': {
                 icon: 'icons/bubble/transporte.svg',
-                color: '#e76056'
+                //color: '#e76056'
             },
             'SERVICIOS URBANOS': {
                 icon: 'icons/bubble/servicios_urbanos.svg',
-                color: '#f3a32d'
+                //color: '#f3a32d'
             },
             'ECOLOGIA': {
                 icon: 'icons/bubble/ecologia.svg',
-                color: '#99c25f'
+                //color: '#99c25f'
             }
         }
     },

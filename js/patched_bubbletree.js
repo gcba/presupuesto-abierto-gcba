@@ -2529,7 +2529,7 @@ BubbleTree.Bubbles.Icon = function(node, bubblechart, origin, radius, angle, col
             me.bc.config.initTooltip(me.node, me.circle.node);
         }
 
-        me.label = $('<div class="bubbletree-label '+me.node.id+'"><div class="bubbletree-amount">'+utils.formatNumber(me.node.amount)+'</div><div class="bubbletree-desc">'+me.node.shortLabel+'</div></div>');
+        me.label = $('<div class="bubbletree-label '+me.node.id+'"><div class="bubbletree-amount" style="font-family: Chalet-Eighty,Avenir,Helvetica,Arial,sans-serif !important;">'+utils.formatNumber(me.node.amount)+'</div><div class="bubbletree-desc" style="font-family: Chalet-Eighty,Avenir,Helvetica,Arial,sans-serif !important;">'+me.node.shortLabel+'</div></div>');
         me.bc.$container.append(me.label);
 
         if ($.isFunction(me.bc.config.initTooltip)) {
@@ -2537,7 +2537,7 @@ BubbleTree.Bubbles.Icon = function(node, bubblechart, origin, radius, angle, col
         }
 
         // additional label
-        me.label2 = $('<div class="bubbletree-label2 '+me.node.id+'"><span><strong class="number-label2">' + utils.formatNumber(me.node.amount) + '</strong> <br>'+me.node.shortLabel+'</span></div>');
+        me.label2 = $('<div class="bubbletree-label2 '+me.node.id+'"><span style="font-family: Chalet-Eighty,Avenir,Helvetica,Arial,sans-serif !important;"><strong class="number-label2" style="font-family: Chalet-Eighty,Avenir,Helvetica,Arial,sans-serif !important;">' + utils.formatNumber(me.node.amount) + '</strong> <br>'+me.node.shortLabel+'</span></div>');
         me.bc.$container.append(me.label2);
 
         if (me.node.children.length > 0) {
