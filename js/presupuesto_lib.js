@@ -64,52 +64,53 @@ Presupuesto = {
                 icon: 'icons/bubble/total.svg'
             },
             'DEUDA PUBLICA, INTERESES Y GASTOS': {
+                icon: 'icons/bubbletree/deuda-publica.svg',
                 color: '#f3a32d'
             },
             'SERVICIOS SOCIALES': {
-                icon: 'icons/bubble/servicios_sociales.svg',
+                icon: 'icons/bubbletree/servicios-sociales.svg',
                 color: '#2ebc98'
             },
             'SERVICIOS ECONOMICOS': {
-                icon: 'icons/bubble/servicios_economicos.svg',
+                icon: 'icons/bubbletree/servicios-economicos.svg',
                 color: '#fcda59'
             },
             'ADMINISTRACION GUBERNAMENTAL': {
-                icon: 'icons/bubble/administracion_gubernamental.svg',
+                icon: 'icons/bubbletree/admin-gubernamental.svg',
                 color: '#34485e'
             },
             'SERVICIOS DE SEGURIDAD': {
-                icon: 'icons/bubble/servicios_de_seguridad.svg',
+                icon: 'icons/bubbletree/seguridad.svg',
                 color: '#0389d1'
             },
             'EDUCACION': {
-                icon: 'icons/bubble/educacion.svg',
+                icon: 'icons/bubbletree/educacion.svg',
                 //color: '#19c3e3'
             },
             'CULTURA': {
-                icon: 'icons/bubble/cultura.svg',
+                icon: 'icons/bubbletree/cultura.svg',
                 //color: '#f562a2'
             },
             'SALUD': {
-                icon: 'icons/bubble/salud.svg',
+                icon: 'icons/bubbletree/salud.svg',
                 //color: '#2ebc98'
             },
             'VIVIENDA': {
-                icon: 'icons/bubble/vivienda.svg'
+                icon: 'icons/bubbletree/vivienda.svg'
             },
             'JUDICIAL': {
-                icon: 'icons/bubble/judicial.svg'
+                icon: 'icons/bubbletree/judicial.svg'
             },
             'DIRECCION EJECUTIVA': {
-                icon: 'icons/bubble/direccion_ejecutiva.svg',
+                icon: 'icons/bubbletree/ejecutiva.svg',
                 //color: '#34485e'
             },
             'ADMINISTRACION FISCAL': {
-                icon: 'icons/bubble/administracion_fiscal.svg',
+                icon: 'icons/bubbletree/fiscal.svg',
                 //color: '#34485e'
             },
             'TRANSPORTE': {
-                icon: 'icons/bubble/transporte.svg',
+                icon: 'icons/bubbletree/transporte.svg',
                 //color: '#e76056'
             },
             'SERVICIOS URBANOS': {
@@ -117,8 +118,27 @@ Presupuesto = {
                 //color: '#f3a32d'
             },
             'ECOLOGIA': {
-                icon: 'icons/bubble/ecologia.svg',
+                icon: 'icons/bubbletree/medio-ambiente.svg',
                 //color: '#99c25f'
+            },
+            'AGUA POTABLE Y ALCANTARILLADO': {
+                icon: 'icons/bubbletree/agua.svg'
+            },
+            'TRABAJO': {
+                icon: 'icons/bubbletree/trabajo.svg',
+                //color: '#99c25f'
+            },
+            'PROMOCION Y ACCION SOCIAL': {
+                icon: 'icons/bubbletree/promocion.svg'
+            },
+            'CONTROL DE LA GESTION': {
+                icon: 'icons/bubbletree/control-de-gestion.svg'
+            },
+            'LEGISLATIVA': {
+                icon: 'icons/bubbletree/legislativa.svg'
+            },
+            'TURISMO': {
+                icon: 'icons/bubbletree/turismo.svg'
             }
         }
     },

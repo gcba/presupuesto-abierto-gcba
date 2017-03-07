@@ -2707,7 +2707,7 @@ BubbleTree.Bubbles.Icon = function(node, bubblechart, origin, radius, angle, col
 
         ly = showIcon ? y+r*0.77-me.label.height() : y-me.label.height()*0.5;
         me.label.css({ width: (showIcon ? r*1.2 : 2*r)+'px', opacity: me.alpha });
-        me.label.css({ left: (showIcon ? x - r*0.6 : x-r)+'px', top: ly+'px' });
+        me.label.css({ left: (showIcon ? x - r*0.6 : x-r)+'px', top: ly+'px', padding: '5px'});
 
         var w = Math.max(80, 3*r);
         me.label2.css({ width: w+'px', opacity: me.alpha });
