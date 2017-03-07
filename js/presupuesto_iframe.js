@@ -19,6 +19,7 @@ $(function() {
     switch(id) {
         case 'bubbletree':
             //d3.select('.controls').style('display', 'none');
+            $('html, body').css({'height': '100%'});
             $('.controls').css('display', 'none');
             d3.csv('Data/presu_agrupado.csv')
               .row(Presupuesto.processBudgetRow)
