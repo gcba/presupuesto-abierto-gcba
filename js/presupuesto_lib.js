@@ -221,7 +221,7 @@ Presupuesto = {
                             .type('tree_map')
                             .time({
                                 value: 'anio',
-                                solo: ['2016'], // TODO: Calculate this
+                                solo: ['2017'], // TODO: Calculate this
                                 fixed: false
                             })
                             .timeline(true)
@@ -284,7 +284,7 @@ Presupuesto = {
                         })
                         .time({
                             value: 'anio',
-                            solo: ['2016'], // TODO: Calculate this
+                            solo: ['2017'], // TODO: Calculate this
                             fixed: false
                         })
                         .color(selectedMeasure)

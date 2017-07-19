@@ -37,11 +37,11 @@
 
 /* redefino cosas que están mal en bastrap.css */
 .bac-header {
-  background-image: url(bastrap3/bac-header-2.png);
-  background-image: url(bastrap3/bac-header-2.svg), none;
+  background-image: url(../bastrap3/bac-header-2.png);
+  background-image: url(../bastrap3/bac-header-2.svg), none;
 }
 
 .bac-footer {
-  background-image: url(bastrap3/bac-footer.png);
-  background-image: url(bastrap3/bac-footer.svg), none;
+  background-image: url(../bastrap3/bac-footer.png);
+  background-image: url(../bastrap3/bac-footer.svg), none;
 }
