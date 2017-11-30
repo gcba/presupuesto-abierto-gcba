@@ -15,8 +15,15 @@ sitio puede ser servido desde la carpeta donde está el archivo
 ## Compilación
 
 Para *deployments* públicos, se recomienda procesar los archivos con
-las tareas definidas en `gruntfile.js`. Instalar las dependencias de
-desarrollo con `npm install`.
+las tareas definidas en `gruntfile.js`. 
+
+Instalar las dependencias de desarrollo con `npm install`.
+
+Si no esta el servicio `http-server` ejecutar
+
+```
+npm install -g http-server
+```
 
 Para compilar el proyecto, ejecutar:
 
@@ -37,8 +44,18 @@ Los datos se generan a partir de los
 disponibles en Buenos Aires Data.
 
 Los archivos CSV allí disponibles deben ser cargados en una base de
-datos SQL. Las siguientes consultas generan los archivos
-`Data/presu_agrupado.csv` y `Data/geo.csv` respectivamente
+datos SQL, si no existe la tabla [ver archivo presupuesto.sql](Data/presupuesto.sql). 
+
+### IMPORTAR EL CSV GENERADO DEL TRIMESTRE DESDE CONSOLA (Debe guardarse en esa carpeta por los permisos)
+```
+LOAD DATA INFILE '/var/lib/mysql-files/presupuesto-ejecutado-2017-tercer-trimestre.csv'
+INTO TABLE gcba
+FIELDS TERMINATED BY ';' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+```
+Las siguientes consultas generan los archivos `Data/presu_agrupado.csv` y `Data/geo.csv` respectivamente
 
 ### `presu_agrupado.csv`
 
@@ -65,14 +82,15 @@ GROUP BY anio, jur_desc, fin_desc, fun_desc, inciso_desc, ppal_desc, ff_desc, ec
 ``` sql
 SELECT
   anio,
-  replace(geo_desc, 'Comuna ', '') as comuna,
+  replace(geo_desc, 'COMUNA ', '') as comuna,
   sum(sancion)    AS sancion,
   sum(vigente)    AS vigente,
   sum(definitivo) AS definitivo,
   sum(devengado)  AS devengado
 FROM gcba
-WHERE cast(left(eco, 4) AS INTEGER) IN (2211, 2212, 2213, 2218, 2222, 2223, 2224, 2225, 2226, 2231, 2233, 2241, 2242, 2243, 2244)
+WHERE cast(left(eco, 4) AS UNSIGNED) IN (2211, 2212, 2213, 2218, 2222, 2223, 2224, 2225, 2226, 2231, 2233, 2241, 2242, 2243, 2244)
 AND geo_desc like 'Comuna%'
 GROUP BY anio, geo_desc
 ORDER BY anio, geo_desc;
 ```
+Luego, se sustituyen los resultados de dicho año en los CSV originales.
