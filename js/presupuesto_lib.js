@@ -17,7 +17,8 @@ var localeES = d3.locale({
     "shortMonths": ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
 });
 
-var d3Format = d3.format('.3s'),
+//Para decimales de los Montos Totales cambiar el valor .3s (para 3 digitos) a .4s (para 4 digitos) ó .5s
+var d3Format = d3.format('.4s'),
     suffixMap = {
         'M': 'M',
         'G': 'MM',
@@ -31,7 +32,7 @@ var d3Format = d3.format('.3s'),
         if (suffixMap.hasOwnProperty(suffix)) {
             abbN += suffixMap[suffix];
         }
-
+	
         return abbN;
     };
 

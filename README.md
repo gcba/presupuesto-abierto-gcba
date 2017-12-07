@@ -55,6 +55,13 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 ```
+
+### Cambiar las comas por puntos en la base de datos
+
+update prespuesto.gcba_2017_3 set definitivo = replace (definitivo, ',', '.');
+
+update prespuesto.gcba_2017_3 set devengado = replace (devengado, ',', '.');
+
 Las siguientes consultas generan los archivos `Data/presu_agrupado.csv` y `Data/geo.csv` respectivamente
 
 ### `presu_agrupado.csv`
