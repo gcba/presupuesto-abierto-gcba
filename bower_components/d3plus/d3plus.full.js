@@ -36835,6 +36835,11 @@ module.exports = function(params) {
         icon = uniques(d, vars.icon.value, fetchValue, vars, vars.id.nesting[depth]),
         tooltip_data = params.titleOnly ? [] : fetchData(vars,d,length,ex,children,depth);
 
+    /*Don't show tool tip if grafic line take to zero*/
+    if (params.data.d3plus.y === params.data.d3plus.y0  && zoom === 1){
+        tooltip_data = "";
+      }
+
     if (icon.length === 1 && typeof icon[0] === "string") {
       icon = icon[0];
     }
