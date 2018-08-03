@@ -46,9 +46,11 @@ disponibles en Buenos Aires Data.
 Los archivos CSV allí disponibles deben ser cargados en una base de
 datos SQL, si no existe la tabla [ver archivo presupuesto.sql](Data/presupuesto.sql). 
 
-### IMPORTAR EL CSV GENERADO DEL TRIMESTRE DESDE CONSOLA (Debe guardarse en esa carpeta por los permisos)
+### IMPORTAR EL CSV GENERADO DEL TRIMESTRE DESDE CONSOLA MYSQL
+Copair el CSV a /var/lib/mysql con permisos de escritura y ownership para mysql
+
 ```
-LOAD DATA INFILE '/var/lib/mysql-files/presupuesto-ejecutado-2017-tercer-trimestre.csv'
+LOAD DATA LOCAL INFILE '/var/lib/mysql/presupuesto-ejecutado-2017-tercer-trimestre.csv'
 INTO TABLE gcba
 FIELDS TERMINATED BY ';' 
 ENCLOSED BY '"'
@@ -58,16 +60,20 @@ IGNORE 1 ROWS;
 
 ### Cambiar las comas por puntos en la base de datos
 
-update prespuesto.gcba_2017_3 set definitivo = replace (definitivo, ',', '.');
+update presupuesto.gcba set definitivo = replace (definitivo, ',', '.');
+update presupuesto.gcba set devengado = replace (devengado, ',', '.');
 
-update prespuesto.gcba_2017_3 set devengado = replace (devengado, ',', '.');
+### Completar el año que corresponde a los datos
 
-Las siguientes consultas generan los archivos `Data/presu_agrupado.csv` y `Data/geo.csv` respectivamente
+update presupuesto.gcba set anio = 2017;
+
+
+Los siguientes comandos generan los archivos `/home/desarrollo/presu_agrupado.csv` y `/home/desarrollo/geo.csv` respectivamente
 
 ### `presu_agrupado.csv`
 
 ``` sql
-SELECT
+mysql -uroot --password=root --database=presupuesto --execute='SELECT
   anio,
   jur_desc,
   fin_desc,
@@ -81,23 +87,25 @@ SELECT
   sum(definitivo) AS definitivo,
   sum(devengado)  AS devengado
 FROM gcba
-GROUP BY anio, jur_desc, fin_desc, fun_desc, inciso_desc, ppal_desc, ff_desc, eco_desc
+GROUP BY anio, jur_desc, fin_desc, fun_desc, 
+inciso_desc, ppal_desc, ff_desc, 
+eco_desc' | sed "s/'/\'/;s/\t/\",\"/g;s/^/\"/;s/$/\"/;s/\n//g" > /home/desarrollo/presu_agrupado.csv
 ```
 
 ### `geo.csv`
 
 ``` sql
-SELECT
+mysql -uroot --password=root --database=presupuesto --execute='SELECT
   anio,
-  replace(geo_desc, 'COMUNA ', '') as comuna,
+  replace(geo_desc, "COMUNA ", "") as comuna,
   sum(sancion)    AS sancion,
   sum(vigente)    AS vigente,
   sum(definitivo) AS definitivo,
   sum(devengado)  AS devengado
 FROM gcba
 WHERE cast(left(eco, 4) AS UNSIGNED) IN (2211, 2212, 2213, 2218, 2222, 2223, 2224, 2225, 2226, 2231, 2233, 2241, 2242, 2243, 2244)
-AND geo_desc like 'Comuna%'
+AND geo_desc like "Comuna%"
 GROUP BY anio, geo_desc
-ORDER BY anio, geo_desc;
+ORDER BY anio, geo_desc' | sed "s/'/\'/;s/\t/\",\"/g;s/^/\"/;s/$/\"/;s/\n//g" > /home/desarrollo/geo.csv
 ```
-Luego, se sustituyen los resultados de dicho año en los CSV originales.
+Luego, se sustituyen los resultados de dicho año en los CSV originales de la carpeta Data/.
