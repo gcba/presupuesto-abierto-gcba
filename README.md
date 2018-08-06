@@ -52,6 +52,7 @@ Copair el CSV a /var/lib/mysql con permisos de escritura y ownership para mysql
 ```
 LOAD DATA LOCAL INFILE '/var/lib/mysql/presupuesto-ejecutado-2017-tercer-trimestre.csv'
 INTO TABLE gcba
+CHARACTER SET UTF8
 FIELDS TERMINATED BY ';' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
@@ -93,6 +94,7 @@ eco_desc' | sed "s/'/\'/;s/\t/\",\"/g;s/^/\"/;s/$/\"/;s/\n//g" > /home/desarroll
 ```
 
 ### `geo.csv`
+Nota: revisar que la columna comuna, solo tenga el número de la comuna y no el texto.
 
 ``` sql
 mysql -uroot --password=root --database=presupuesto --execute='SELECT
