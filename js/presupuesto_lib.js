@@ -44,9 +44,31 @@ Presupuesto = {
     MEASURES: ['vigente', 'devengado'],
     CSCALE: ['#DF4944', '#EE9224', '#FAD448', '#1FB7DC', '#0F74C7', '#2AB186', '#88B84D', '#CBD640', '#2F3E4B', '#8A55A7', '#F04691'],
     REPLACEMENTS: {
+	'fin_desc': {
+	    'Servicios Económicos': 'SERVICIOS ECONOMICOS',
+	    'Deuda Pública – Intereses Y Gastos': 'DEUDA PUBLICA, INTERESES Y GASTOS',
+	    'Servicios Sociales': 'SERVICIOS SOCIALES',
+	    'Administración Gubernamental': 'ADMINISTRACION GUBERNAMENTAL',
+	    'Servicios De Seguridad': 'SERVICIOS DE SEGURIDAD',
+	    'Educación': 'EDUCACION',
+	    'Cultura': 'CULTURA',
+	    'Salud': 'SALUD',
+	    'Vivienda': 'VIVIENDA',
+	    'Dirección Ejecutiva': 'DIRECCION EJECUTIVA',
+            'Administración Fiscal': 'ADMINISTRACION FISCAL',
+            'Transporte': 'TRANSPORTE',
+            'Servicios Urbanos': 'SERVICIOS URBANOS',
+            'Ecología': 'ECOLOGIA',
+            'Agua Potable Y Alcantarillado': 'AGUA POTABLE Y ALCANTARILLADO',
+            'Trabajo': 'TRABAJO',
+            'Promocióm Y Acción Social': 'PROMOCION Y ACCION SOCIAL',
+            'Control De La Gestión': 'CONTROL DE LA GESTION',
+            'Legislativa': 'LEGISLATIVA',
+            'Turismo': 'TURISMO'
+	},
         'fun_desc': {
             'Servicios Urbanos': 'Servicios Urbano',
-            'Seguridad Interior': 'Seguridad'
+            'Seguridad Interior': 'Seguridad'	    
         },
         'inciso_desc': {
             'Servicio De La Deuda Y Disminución De Otros Pasivos': 'Intereses de la Deuda Pública'
@@ -222,7 +244,7 @@ Presupuesto = {
                             .type('tree_map')
                             .time({
                                 value: 'anio',
-                                solo: ['2017'], // TODO: Calculate this
+                                solo: ['2018'], // TODO: Calculate this
                                 fixed: false
                             })
                             .timeline(true)
@@ -285,7 +307,7 @@ Presupuesto = {
                         })
                         .time({
                             value: 'anio',
-                            solo: ['2017'], // TODO: Calculate this
+                            solo: ['2018'], // TODO: Calculate this
                             fixed: false
                         })
                         .color(selectedMeasure)

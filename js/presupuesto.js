@@ -22,8 +22,8 @@ d3.csv('Data/presu_agrupado.csv')
   .get(function(error, rows) {
 
       // finalidad y función para el bubble tree
-      // se muestra solo para 2017
-      var b = Presupuesto.toBubbleTree(_.filter(_.filter(rows, function(d) { return d.anio === '2017' }), function(d) { return d.vigente > 0}),
+      // se muestra solo para 2018
+      var b = Presupuesto.toBubbleTree(_.filter(_.filter(rows, function(d) { return d.anio === '2018' }), function(d) { return d.vigente > 0}),
                                        'vigente');
       
       new BubbleTree({

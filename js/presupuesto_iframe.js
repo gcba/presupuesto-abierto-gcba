@@ -31,7 +31,7 @@ $(function() {
                     .append('div')
                     .attr('class', 'bubbletree');
 
-                  var b = Presupuesto.toBubbleTree(_.filter(_.filter(rows, function(d) { return d.anio === '2017' }), function(d) { return d.vigente > 0}),
+                  var b = Presupuesto.toBubbleTree(_.filter(_.filter(rows, function(d) { return d.anio === '2018' }), function(d) { return d.vigente > 0}),
                                                    'vigente');
                   new BubbleTree({
                       data: b,

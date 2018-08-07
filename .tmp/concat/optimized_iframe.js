@@ -47311,6 +47311,11 @@ module.exports = function(params) {
         icon = uniques(d, vars.icon.value, fetchValue, vars, vars.id.nesting[depth]),
         tooltip_data = params.titleOnly ? [] : fetchData(vars,d,length,ex,children,depth);
 
+    /*Don't show tool tip if grafic line take to zero*/
+    if (params.data.d3plus.y === params.data.d3plus.y0  && zoom === 1){
+        tooltip_data = "";
+      }
+
     if (icon.length === 1 && typeof icon[0] === "string") {
       icon = icon[0];
     }
@@ -89013,7 +89018,8 @@ var localeES = d3.locale({
     "shortMonths": ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
 });
 
-var d3Format = d3.format('.3s'),
+//Para decimales de los Montos Totales cambiar el valor .3s (para 3 digitos) a .4s (para 4 digitos) ó .5s
+var d3Format = d3.format('.4s'),
     suffixMap = {
         'M': 'M',
         'G': 'MM',
@@ -89027,7 +89033,7 @@ var d3Format = d3.format('.3s'),
         if (suffixMap.hasOwnProperty(suffix)) {
             abbN += suffixMap[suffix];
         }
-
+	
         return abbN;
     };
 
@@ -89039,9 +89045,31 @@ Presupuesto = {
     MEASURES: ['vigente', 'devengado'],
     CSCALE: ['#DF4944', '#EE9224', '#FAD448', '#1FB7DC', '#0F74C7', '#2AB186', '#88B84D', '#CBD640', '#2F3E4B', '#8A55A7', '#F04691'],
     REPLACEMENTS: {
+	'fin_desc': {
+	    'Servicios Económicos': 'SERVICIOS ECONOMICOS',
+	    'Deuda Pública – Intereses Y Gastos': 'DEUDA PUBLICA, INTERESES Y GASTOS',
+	    'Servicios Sociales': 'SERVICIOS SOCIALES',
+	    'Administración Gubernamental': 'ADMINISTRACION GUBERNAMENTAL',
+	    'Servicios De Seguridad': 'SERVICIOS DE SEGURIDAD',
+	    'Educación': 'EDUCACION',
+	    'Cultura': 'CULTURA',
+	    'Salud': 'SALUD',
+	    'Vivienda': 'VIVIENDA',
+	    'Dirección Ejecutiva': 'DIRECCION EJECUTIVA',
+            'Administración Fiscal': 'ADMINISTRACION FISCAL',
+            'Transporte': 'TRANSPORTE',
+            'Servicios Urbanos': 'SERVICIOS URBANOS',
+            'Ecología': 'ECOLOGIA',
+            'Agua Potable Y Alcantarillado': 'AGUA POTABLE Y ALCANTARILLADO',
+            'Trabajo': 'TRABAJO',
+            'Promocióm Y Acción Social': 'PROMOCION Y ACCION SOCIAL',
+            'Control De La Gestión': 'CONTROL DE LA GESTION',
+            'Legislativa': 'LEGISLATIVA',
+            'Turismo': 'TURISMO'
+	},
         'fun_desc': {
             'Servicios Urbanos': 'Servicios Urbano',
-            'Seguridad Interior': 'Seguridad'
+            'Seguridad Interior': 'Seguridad'	    
         },
         'inciso_desc': {
             'Servicio De La Deuda Y Disminución De Otros Pasivos': 'Intereses de la Deuda Pública'
@@ -89217,7 +89245,7 @@ Presupuesto = {
                             .type('tree_map')
                             .time({
                                 value: 'anio',
-                                solo: ['2017'], // TODO: Calculate this
+                                solo: ['2018'], // TODO: Calculate this
                                 fixed: false
                             })
                             .timeline(true)
@@ -89280,7 +89308,7 @@ Presupuesto = {
                         })
                         .time({
                             value: 'anio',
-                            solo: ['2017'], // TODO: Calculate this
+                            solo: ['2018'], // TODO: Calculate this
                             fixed: false
                         })
                         .color(selectedMeasure)
@@ -89384,7 +89412,7 @@ $(function() {
                     .append('div')
                     .attr('class', 'bubbletree');
 
-                  var b = Presupuesto.toBubbleTree(_.filter(_.filter(rows, function(d) { return d.anio === '2017' }), function(d) { return d.vigente > 0}),
+                  var b = Presupuesto.toBubbleTree(_.filter(_.filter(rows, function(d) { return d.anio === '2018' }), function(d) { return d.vigente > 0}),
                                                    'vigente');
                   new BubbleTree({
                       data: b,
