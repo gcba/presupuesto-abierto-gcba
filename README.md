@@ -47,9 +47,13 @@ Los archivos CSV allí disponibles deben ser cargados en una base de
 datos SQL, si no existe la tabla [ver archivo presupuesto.sql](Data/presupuesto.sql). 
 
 ### IMPORTAR EL CSV GENERADO DEL TRIMESTRE DESDE CONSOLA MYSQL
-Copair el CSV a /var/lib/mysql con permisos de escritura y ownership para mysql
-
+-Copiar el CSV a /var/lib/mysql con permisos de escritura y ownership para mysql
+-O alternativamente iniciar mysql con el siguiente comando y levantar el csv desde su ubicación original:
 ```
+mysql -u usuario -p --local-infile gcba
+```
+
+```sql
 LOAD DATA LOCAL INFILE '/var/lib/mysql/presupuesto-ejecutado-2017-tercer-trimestre.csv'
 INTO TABLE gcba
 CHARACTER SET UTF8
@@ -60,14 +64,15 @@ IGNORE 1 ROWS;
 ```
 
 ### Cambiar las comas por puntos en la base de datos
-
+```sql
 update presupuesto.gcba set definitivo = replace (definitivo, ',', '.');
 update presupuesto.gcba set devengado = replace (devengado, ',', '.');
+```
 
 ### Completar el año que corresponde a los datos
-
+```sql
 update presupuesto.gcba set anio = 2017;
-
+```
 
 Los siguientes comandos generan los archivos `/home/desarrollo/presu_agrupado.csv` y `/home/desarrollo/geo.csv` respectivamente
 
