@@ -50,7 +50,7 @@ datos SQL, si no existe la tabla [ver archivo presupuesto.sql](Data/presupuesto.
 -Copiar el CSV a /var/lib/mysql con permisos de escritura y ownership para mysql
 -O alternativamente iniciar mysql con el siguiente comando y levantar el csv desde su ubicación original:
 ```
-mysql -u usuario -p --local-infile gcba
+mysql -u usuario -p --local-infile presupuesto
 ```
 
 ```sql
