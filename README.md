@@ -4,6 +4,7 @@
 construyen a partir de los datos almacenados en los archivos `CSV` que
 están en el directorio `Data`.
 
+[![GitHub issues](https://img.shields.io/github/issues/gcba/presupuesto-abierto-gcba?style=social)](https://github.com/gcba/presupuesto-abierto-gcba/issues) [![GitHub forks](https://img.shields.io/github/forks/gcba/presupuesto-abierto-gcba?style=social)](https://github.com/gcba/presupuesto-abierto-gcba/network) [![GitHub stars](https://img.shields.io/github/stars/gcba/presupuesto-abierto-gcba?style=social)](https://github.com/gcba/presupuesto-abierto-gcba/stargazers) [![GitHub license](https://img.shields.io/github/license/gcba/presupuesto-abierto-gcba?style=social)](https://github.com/gcba/presupuesto-abierto-gcba)
 ## Requerimientos
 
 Se requieren las herramientas `bower` y `grunt`. Instalarlas con NPM.
