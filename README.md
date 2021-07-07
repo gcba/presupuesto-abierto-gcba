@@ -15,16 +15,16 @@
 
 ## Índice
 
-* [1. Introducción](#1-introducción)
-* [2. Guía de instalación y uso](#2-guía-de-instalación-y-uso)
-* [3. Compilación](#3-compilación)
-* [4. Generación de datos](#4-generación-de-datos)
-* [5. Autores](#5-autores)
-* [6. Contribuir con el proyecto](#6-contribuir-con-el-proyecto)
+* [Introducción](#-introducción)
+* [Guía de instalación y uso](#-guía-de-instalación-y-uso)
+* [Compilación](#-compilación)
+* [Generación de datos](#-generación-de-datos)
+* [Autores](#-autores)
+* [Contribuir con el proyecto](#-contribuir-con-el-proyecto)
 
 ***
  
-## <img src="https://raw.githubusercontent.com/gcba/presupuesto-abierto-gcba/gh-pages/bastrap3/bac-header.png" height="30"> 1. Introducción
+## <img src="https://raw.githubusercontent.com/gcba/presupuesto-abierto-gcba/gh-pages/bastrap3/bac-header.png" height="28"> Introducción
 
 `gcba-presupuesto`: *Presupuesto Abierto de la Ciudad de Buenos Aires* es un sitio estático: las visualizaciones se
 construyen a partir de los datos almacenados en los archivos `CSV` que están en el directorio `Data`.
@@ -39,7 +39,8 @@ La información presentada corresponde a la ejecución presupuestaria al tercer 
 El presupuesto refleja lo que hace el Estado con los recursos que nos pide a todos los ciudadanos. Por eso, __desde el Gobierno de la Ciudad de Buenos Aires queremos rendir cuentas de forma directa sobre la manera en que utilizamos esos fondos__. Estamos convencidos de que esa es la manera de __estimular la participación, optimizar los controles y mejorar el nivel de la discusión pública__.
 
 </details>
-## 2. Guía de instalación y uso
+
+## :ledger: Guía de instalación y uso
 
 + Se requieren las herramientas `bower` y `grunt`. Instalarlas con NPM.
 
@@ -48,7 +49,7 @@ El presupuesto refleja lo que hace el Estado con los recursos que nos pide a tod
 sitio puede ser servido desde la carpeta donde está el archivo
 `index.html` (por ejemplo, con `python -m SimpleHTTPServer`).
 
-## 3. Compilación
+## 	:wrench: Compilación
 
 Para *deployments* públicos, se recomienda procesar los archivos con
 las tareas definidas en `gruntfile.js`. 
@@ -73,7 +74,7 @@ apta para ser copiada a un servidor HTTP.
 **IMPORTANTE**: en el servidor HTTP, se recomienda activar compresión
 GZIP para archivos de tipo CSV (MIME type: `text/csv`)
 
-## 4. Generación de datos
+## 	:clipboard: Generación de datos
 
 Los datos se generan a partir de los
 [datos de ejecución presupuestaria](http://data.buenosaires.gob.ar/dataset/presupuesto-ejecutado)
@@ -152,3 +153,7 @@ GROUP BY anio, geo_desc
 ORDER BY anio, geo_desc' | sed "s/'/\'/;s/\t/\",\"/g;s/^/\"/;s/$/\"/;s/\n//g" > /home/desarrollo/geo.csv
 ```
 Luego, se sustituyen los resultados de dicho año en los CSV originales de la carpeta Data/.
+
+## :rocket: Autores
+
+## :handshake: Contribuir con el proyecto
