@@ -48,7 +48,7 @@ El presupuesto refleja lo que hace el Estado con los recursos que nos pide a tod
 sitio puede ser servido desde la carpeta donde está el archivo
 `index.html` (por ejemplo, con `python -m SimpleHTTPServer`).
 
-## 	:wrench: Compilación
+## 	:computer: Compilación
 
 Para deployments públicos, se recomienda procesar los archivos con
 las tareas definidas en `gruntfile.js`. 
@@ -155,5 +155,7 @@ ORDER BY anio, geo_desc' | sed "s/'/\'/;s/\t/\",\"/g;s/^/\"/;s/$/\"/;s/\n//g" > 
 Luego, se sustituyen los resultados de dicho año en los CSV originales de la carpeta Data/.
 
 ## :rocket: Autores
+
+
 
 ## :handshake: Contribuir con el proyecto
