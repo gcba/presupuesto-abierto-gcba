@@ -39,6 +39,7 @@ La información presentada corresponde a la ejecución presupuestaria al tercer 
 El presupuesto refleja lo que hace el Estado con los recursos que nos pide a todos los ciudadanos. Por eso, __desde el Gobierno de la Ciudad de Buenos Aires queremos rendir cuentas de forma directa sobre la manera en que utilizamos esos fondos__. Estamos convencidos de que esa es la manera de __estimular la participación, optimizar los controles y mejorar el nivel de la discusión pública__.
 
 </details>
+
 ## 2. Guía de instalación y uso
 
 + Se requieren las herramientas `bower` y `grunt`. Instalarlas con NPM.
