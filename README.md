@@ -43,8 +43,7 @@ El presupuesto refleja lo que hace el Estado con los recursos que nos pide a tod
 ## :ledger: Guía de instalación y uso
 
 + Se requieren las herramientas `bower` y `grunt`. Instalarlas con NPM.
-
-
+<br>
 + Instalar las dependencias con: `bower install`. Una vez instaladas, el
 sitio puede ser servido desde la carpeta donde está el archivo
 `index.html` (por ejemplo, con `python -m SimpleHTTPServer`).
@@ -74,6 +73,7 @@ apta para ser copiada a un servidor HTTP.
 **IMPORTANTE**: en el servidor HTTP, se recomienda activar compresión
 GZIP para archivos de tipo CSV (MIME type: `text/csv`)
 
+
 ## 	:clipboard: Generación de datos
 
 Los datos se generan a partir de los
@@ -83,9 +83,9 @@ disponibles en Buenos Aires Data.
 Los archivos CSV allí disponibles deben ser cargados en una base de
 datos SQL, si no existe la tabla [ver archivo presupuesto.sql](Data/presupuesto.sql). 
 
-### Importar el CSV generado del trimestre desde consola MYSQL
-* Copiar el CSV a /var/lib/mysql con permisos de escritura y ownership para mysql
-* O alternativamente iniciar mysql con el siguiente comando y levantar el csv desde su ubicación original:
+### Importar el CSV generado del trimestre desde la consola MYSQL
+-Copiar el CSV a /var/lib/mysql con permisos de escritura y ownership para mysql
+-O alternativamente iniciar mysql con el siguiente comando y levantar el csv desde su ubicación original:
 ```
 mysql -u usuario -p --local-infile presupuesto
 ```
