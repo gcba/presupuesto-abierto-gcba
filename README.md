@@ -1,4 +1,5 @@
-Esta herramienta digital forma parte del catálogo de herramientas del [Banco Interamericano de Desarrollo](https://www.iadb.org). Puedes conocer más sobre la iniciativa del BID en [code.iadb.org](https://code.iadb.org)
+  Esta herramienta digital forma parte del catálogo de herramientas del [Banco Interamericano de Desarrollo](https://www.iadb.org).
+  Puedes conocer más sobre la iniciativa del BID en [code.iadb.org](https://code.iadb.org)
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/gcba/presupuesto-abierto-gcba/gh-pages/bastrap3/bac-header.png"> 
@@ -15,19 +16,16 @@ Esta herramienta digital forma parte del catálogo de herramientas del [Banco In
 
 ## Índice
 
-* [Introducción](#-introducción)
-* [Guía de instalación y uso](#-guía-de-instalación-y-uso)
-* [Compilación](#-compilación)
-* [Generación de datos](#-generación-de-datos)
-* [Autores](#-autores)
-* [Contribuir con el proyecto](#-contribuir-con-el-proyecto)
-
-*
+* [1. Introducción](#1-introducción)
+* [2. Guía de instalación y uso](#2-guía-de-instalación-y-uso)
+* [3. Compilación](#3-compilación)
+* [4. Generación de datos](#4-generación-de-datos)
+* [5. Autores](#5-autores)
+* [6. Contribuir con el proyecto](#6-contribuir-con-el-proyecto)
  
-## <img src="https://raw.githubusercontent.com/gcba/presupuesto-abierto-gcba/gh-pages/bastrap3/bac-header.png" height="28"> Introducción
+## <img src="https://raw.githubusercontent.com/gcba/presupuesto-abierto-gcba/gh-pages/bastrap3/bac-header.png" height="28"> 1. Introducción
 
-`gcba-presupuesto`: Presupuesto Abierto de la Ciudad de Buenos Aires es un sitio estático: las visualizaciones se
-construyen a partir de los datos almacenados en los archivos `CSV` que están en el directorio `Data`.
+`gcba-presupuesto`: __Presupuesto Abierto de la Ciudad de Buenos Aires__ es un sitio estático: las visualizaciones se construyen a partir de los datos almacenados en los archivos `CSV` que están en el directorio `Data`.
 
 La información presentada corresponde a la ejecución presupuestaria al tercer trimestre de 2019. Se actualizará automáticamente en función de la disponibilidad de la información trimestral. Los datos provienen del conjunto [Presupuesto Ejecutado](https://data.buenosaires.gob.ar/dataset/presupuesto-ejecutado) disponible en [Buenos Aires Data](https://data.buenosaires.gob.ar/).
 
@@ -36,19 +34,20 @@ La información presentada corresponde a la ejecución presupuestaria al tercer 
 
 ### :heavy_check_mark: Objetivos 
 
-El presupuesto refleja lo que hace el Estado con los recursos que nos pide a todos los ciudadanos. Por eso, _desde el Gobierno de la Ciudad de Buenos Aires queremos rendir cuentas de forma directa sobre la manera en que utilizamos esos fondos. Estamos convencidos de que esa es la manera de __estimular la participación, optimizar los controles y mejorar el nivel de la discusión pública_.
+El presupuesto refleja lo que hace el Estado con los recursos que nos pide a todos los ciudadanos. Por eso, __desde el Gobierno de la Ciudad de Buenos Aires queremos rendir cuentas de forma directa sobre la manera en que utilizamos esos fondos__. Estamos convencidos de que esa es la manera de __estimular la participación, optimizar los controles y mejorar el nivel de la discusión pública__.
 
 </details>
 
-## :ledger: Guía de instalación y uso
+## :ledger: 2. Guía de instalación y uso
 
 + Se requieren las herramientas `bower` y `grunt`. Instalarlas con NPM.
 <br>
+
 + Instalar las dependencias con: `bower install`. Una vez instaladas, el
 sitio puede ser servido desde la carpeta donde está el archivo
 `index.html` (por ejemplo, con `python -m SimpleHTTPServer`).
 
-## 	:computer: Compilación
+## 	:computer: 3. Compilación
 
 Para *deployments* públicos, se recomienda procesar los archivos con
 las tareas definidas en `gruntfile.js`. 
@@ -74,10 +73,9 @@ apta para ser copiada a un servidor HTTP.
 GZIP para archivos de tipo CSV (MIME type: `text/csv`)
 
 
-## 	:clipboard: Generación de datos
+## 	:clipboard: 4. Generación de datos
 
-Los datos se generan a partir de los
-[datos de ejecución presupuestaria](http://data.buenosaires.gob.ar/dataset/presupuesto-ejecutado)
+Los datos se generan a partir de los [datos de ejecución presupuestaria](http://data.buenosaires.gob.ar/dataset/presupuesto-ejecutado)
 disponibles en Buenos Aires Data.
 
 Los archivos CSV allí disponibles deben ser cargados en una base de
@@ -85,8 +83,9 @@ datos SQL, si no existe la tabla [ver archivo presupuesto.sql](Data/presupuesto.
 
 ### Importar el CSV generado del trimestre desde la consola MYSQL
 
--Copiar el CSV a /var/lib/mysql con permisos de escritura y ownership para mysql
--O alternativamente iniciar mysql con el siguiente comando y levantar el csv desde su ubicación original:
+- Copiar el CSV a /var/lib/mysql con permisos de escritura y ownership para mysql
+<br>
+- O alternativamente iniciar mysql con el siguiente comando y levantar el csv desde su ubicación original:
 ```
 mysql -u usuario -p --local-infile presupuesto
 ```
@@ -112,7 +111,7 @@ update presupuesto.gcba set devengado = replace (devengado, ',', '.');
 update presupuesto.gcba set anio = 2017;
 ```
 
-Los siguientes comandos generan los archivos `/home/desarrollo/presu_agrupado.csv` y `/home/desarrollo/geo.csv` respectivamente
+Los siguientes comandos generan los archivos `/home/desarrollo/presu_agrupado.csv` y `/home/desarrollo/geo.csv` respectivamente:
 
 ### `presu_agrupado.csv`
 
@@ -155,8 +154,8 @@ ORDER BY anio, geo_desc' | sed "s/'/\'/;s/\t/\",\"/g;s/^/\"/;s/$/\"/;s/\n//g" > 
 ```
 Luego, se sustituyen los resultados de dicho año en los CSV originales de la carpeta Data/.
 
-## :rocket: Autores
+## :rocket: 5. Autores
 
 
 
-## :handshake: Contribuir con el proyecto
+## :handshake: 6. Contribuir con el proyecto
