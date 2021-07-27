@@ -77,7 +77,7 @@ Presupuesto = {
             'Activos Intangibles': 'Software y otros Activos Intangibles'
         },
         'ff_desc': {
-            'Tesoro De La Ciudad': 'Rentas Generales'
+            'Tesoro De La Ciudad': 'Tesoro De La Ciudad'
         },
     },
     BUBBLE_STYLES: {
